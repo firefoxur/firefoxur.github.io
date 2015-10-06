@@ -10,7 +10,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+   html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
@@ -24,7 +24,7 @@ html {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
+ ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
 }
@@ -38,7 +38,7 @@ html {
  * A better looking default horizontal rule
  */
 
-hr {
+ hr {
     display: block;
     height: 1px;
     border: 0;
@@ -53,12 +53,12 @@ hr {
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+ audio,
+ canvas,
+ iframe,
+ img,
+ svg,
+ video {
     vertical-align: middle;
 }
 
@@ -66,7 +66,7 @@ video {
  * Remove default fieldset styles.
  */
 
-fieldset {
+ fieldset {
     border: 0;
     margin: 0;
     padding: 0;
@@ -76,7 +76,7 @@ fieldset {
  * Allow only vertical resizing of textareas.
  */
 
-textarea {
+ textarea {
     resize: vertical;
 }
 
@@ -84,30 +84,202 @@ textarea {
    Browser Upgrade Prompt
    ========================================================================== */
 
-.browserupgrade {
+   .browserupgrade {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
     padding: 0.2em 0;
 }
+/* ==========================================================================
+    *********** THINGS GEMMA ADDED ************
+    ========================================================================== */
+
+/* ==========================================================================
+   Global Overrides
+   ========================================================================== */
+   * {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    display: table;
+    clear: both;
+    content: "";
+}
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*SITE COLORS:
+Highligh Green: #398265 and (57, 130, 101, 1);
+
+/*SITE FONTS:
+
+font-family: 'Open Sans', sans-serif; (300, 300i, 400, 600)
+font-family: 'Hind', sans-serif; (500, 600)*/
 
 
+/* Global
+================================================================ */
+body {
+  background-color: #FFF;
+  color: #222;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
 
+li {
+    font-family: 'Open Sans' sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    list-style: none;
+}
 
+/* Headings (h1 - h4)
+================================================================ */
+h1 {
+  font-family: 'Hind', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 1;
+  float: left;
+  margin-top: 20px;
+color: #398265;
+}
 
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0;
+}
 
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+}
 
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+    text-transform: uppercase;
+}
 
+/* Text Styles
+================================================================ */
+a, a:visited {
+  text-decoration: none;
+color: #222;
+}
 
+a:hover {
+  text-decoration: none;
+  color: #398265;
+}
 
+p {
+    margin: 0 0 30px;
+}
 
+/* Header/Footer
+================================================================ */
+header, footer {
+    background-color: #FFFFFF;
+} 
 
+header {
 
+  border-bottom: 5px solid #398265;
+  padding: 0 42px;
+}
 
+footer {
+  clear: both;
+padding: 25px 25px;
+font-size: 15px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Navigation
+================================================================ */
+nav {
+  float: left;
+  padding-left: 30px;
+}
+
+nav ul li {
+   text-transform: uppercase;
+   float: left;
+   text-align: center;
+    color: #398265;
+}
+
+nav a {
+    display: block;
+    padding: 20px 15px;
+}
+
+nav a:hover {
+    color: #398265;
+}
+
+/* Buttons
+================================================================ */
+
+.button_abstract {
+font-family:'Hind', sans-serif;
+text-transform: uppercase;
+font-weight: 500;
+color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  background: #398265;
+  box-shadow: inset 0 -3px 0 rgba(57, 130, 101, 1);
+}
+
+.button_download {
+font-family:'Hind', sans-serif;
+text-transform: uppercase;
+font-weight: 500;
+color: #FFFFFF;
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  background: #3D3D3A;
+  box-shadow: inset 0 -3px 0 rgba(57, 130, 101, 1);
+}
+
+/* Super info button in blurb */
+/*.blurb .button {
+  transition: all .2s ease;
+  color: white;
+  background: #fa4542;
+}
+
+.blurb .button:hover {
+  color: white;
+  background: #f6201d;
+}*/
+
+/* Layout
+================================================================ */
 
 
 
@@ -120,7 +292,7 @@ textarea {
  * http://juicystudio.com/article/screen-readers-display-none.php
  */
 
-.hidden {
+ .hidden {
     display: none !important;
     visibility: hidden;
 }
@@ -130,7 +302,7 @@ textarea {
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
 
-.visuallyhidden {
+ .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -147,8 +319,8 @@ textarea {
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+ .visuallyhidden.focusable:active,
+ .visuallyhidden.focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -161,7 +333,7 @@ textarea {
  * Hide visually and from screen readers, but maintain layout
  */
 
-.invisible {
+ .invisible {
     visibility: hidden;
 }
 
@@ -177,8 +349,8 @@ textarea {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
+ .clearfix:before,
+ .clearfix:after {
     content: " "; /* 1 */
     display: table; /* 2 */
 }
@@ -193,14 +365,14 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+   @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -210,13 +382,13 @@ textarea {
    http://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media print {
+   @media print {
     *,
     *:before,
     *:after {
         background: transparent !important;
         color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
+        http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -239,8 +411,8 @@ textarea {
      * or use the `javascript:` pseudo protocol
      */
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
+     a[href^="#"]:after,
+     a[href^="javascript:"]:after {
         content: "";
     }
 
@@ -255,7 +427,7 @@ textarea {
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
 
-    thead {
+     thead {
         display: table-header-group;
     }
 
