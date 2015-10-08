@@ -98,7 +98,11 @@
    Global Overrides
    ========================================================================== */
    * {
+   width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
+/*    border: solid red 2px;*/
 }
 
 .clearfix:after {
@@ -112,6 +116,7 @@
    ========================================================================== */
 /*SITE COLORS:
 Highligh Green: #398265 and (57, 130, 101, 1);
+Lighter Green: #4CA770 RGBA(76, 167, 112, 1);
 
 /*SITE FONTS:
 
@@ -119,61 +124,33 @@ font-family: 'Open Sans', sans-serif; (300, 300i, 400, 600)
 font-family: 'Hind', sans-serif; (500, 600)*/
 
 
-/* Global
-================================================================ */
+/*LATO?*/
+/* ----------------------------------------------------
+   C O N T A I N E R
+   ------------------------------------------------------- */
+#container {
+    width: 90%;
+    margin: 0 auto; 
+    /*  margin 0 auto centers it in the page*/
+  }
+
+
+/* ----------------------------------------------------
+   G L O B A L
+   ------------------------------------------------------- */
 body {
-  background-color: #FFF;
-  color: #222;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 1.5;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+     color: #555;
+  background-color: #fff;
   -webkit-font-smoothing: antialiased;
-}
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 1em;
+  }
 
-li {
-    font-family: 'Open Sans' sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    list-style: none;
-}
+  li {
+   list-style: none;
+  }
 
-/* Headings (h1 - h4)
-================================================================ */
-h1 {
-  font-family: 'Hind', sans-serif;
-  font-weight: 600;
-  font-size: 60px;
-  line-height: 1;
-  float: left;
-  margin-top: 20px;
-color: #398265;
-}
-
-h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-    margin: 0;
-}
-
-h3 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    margin: 0;
-}
-
-h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    margin: 0;
-    text-transform: uppercase;
-}
-
-/* Text Styles
-================================================================ */
 a, a:visited {
   text-decoration: none;
 color: #222;
@@ -188,62 +165,170 @@ p {
     margin: 0 0 30px;
 }
 
-/* Header/Footer
-================================================================ */
-header, footer {
-    background-color: #FFFFFF;
-} 
+/* ----------------------------------------------------
+   N A V I G A T I O N
+   ------------------------------------------------------- */
 
-header {
 
-  border-bottom: 5px solid #398265;
-  padding: 0 42px;
+nav {
+    height: 200px;
+  }
+
+  nav li {
+    width: 15%;
+    height: 50px;
+    float: left;
+    margin: 10px;
+    text-transform: uppercase;
+    color: #398265;
+  }
+
+  nav li:nth-child(even) {
+    margin-left: 200px;
+  }
+
+  .line {
+    height: 7px;
+    width: 60%;
+    margin: 5px auto;
+    border-radius: 5px;
+  }
+
+
+/* ----------------------------------------------------
+   H E A D I N G S
+   ------------------------------------------------------- */
+h1 {
+  font-family: 'Hind', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+color: #398265;
 }
 
-footer {
-  clear: both;
-padding: 25px 25px;
-font-size: 15px;
+h2 {
+  font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    margin: 0;
+
 }
 
-footer p {
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin: 0;
+    border-top: 1px solid rgba(0,0,0,0.2);
+   text-transform: uppercase;
+}
+
+/*.left_nav h3{
+   border-top: 1px solid rgba(0,0,0,0.2);
+   color: #FFF;
+   text-transform: uppercase;
+}*/
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
     margin: 0;
 }
 
-/* Navigation
-================================================================ */
-nav {
-  float: left;
-  padding-left: 30px;
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+    margin: 0;
 }
 
-nav ul li {
-   text-transform: uppercase;
+
+/* ----------------------------------------------------
+   M A I N   C O N T E N T
+   ------------------------------------------------------- */
+
+
+  .main {
+float: left;
+}
+    .side_bar  {
+    background-color: #48a770;
+    width: 20%;
+    height: 450px;
+    margin: 20px 0;
+    float: left;
+  }
+
+  div .project_item {
+    width: 73%;
+    height: 150px;
+    float: right;
+       margin: 20px 1%;
+  }
+
+   div .thumbnail {
+   width: 22%;
+   height: 150px;
    float: left;
-   text-align: center;
-    color: #398265;
+   margin-right: 1em;
+ }
+
+  div .description {
+   width: 74%;
+   height: 130px;
+   float: left;
+ }
+
+  .line {
+  border-bottom: 1px solid #bbb;
+  width: 100%;
+  margin: 6px 0;
 }
 
-nav a {
-    display: block;
-    padding: 20px 15px;
+
+/* ----------------------------------------------------
+   F O O T E R
+   ------------------------------------------------------- */
+/*  .pagination div {
+display: inline;
+float: left;
+  }*/
+  
+  footer div {
+    width: 30%;
+    height: 50px;
+    float: left;
+    margin: 10px 1.5%;
+  }
+
+  footer {
+   clear: left;
+ }
+
+ .footer_line {
+  border-top: 2px solid #bbb;
+  width: 100%;
+  margin: 6px 0;
 }
 
-nav a:hover {
-    color: #398265;
-}
-
-/* Buttons
-================================================================ */
-
+/* ----------------------------------------------------
+  B U T T O N S
+   ------------------------------------------------------- */
 .button_abstract {
+  float: left;
+  width: 20%;
+  height: 25px;
 font-family:'Hind', sans-serif;
 text-transform: uppercase;
 font-weight: 500;
 color: #FFFFFF;
-  display: block;
-  padding: 10px;
-  font-size: 20px;
+  display: inline;
+  padding: 5px;
+   margin-right: 5px;
+   margin-left: 28em;
+  font-size: 13px;
   text-align: center;
   letter-spacing: 1px;
   border-radius: 5px;
@@ -252,18 +337,21 @@ color: #FFFFFF;
 }
 
 .button_download {
+    float: left;
+  width: 20%;
+  height: 25px;
 font-family:'Hind', sans-serif;
 text-transform: uppercase;
 font-weight: 500;
 color: #FFFFFF;
-  display: block;
-  padding: 10px;
-  font-size: 20px;
+  display: inline;
+  padding: 5px;
+  font-size: 13px;
   text-align: center;
   letter-spacing: 1px;
   border-radius: 5px;
   background: #3D3D3A;
-  box-shadow: inset 0 -3px 0 rgba(57, 130, 101, 1);
+  box-shadow: inset 0 -3px 0 rgba(61, 61, 58, 1);
 }
 
 /* Super info button in blurb */
@@ -278,8 +366,6 @@ color: #FFFFFF;
   background: #f6201d;
 }*/
 
-/* Layout
-================================================================ */
 
 
 
@@ -452,3 +538,53 @@ color: #FFFFFF;
         page-break-after: avoid;
     }
 }
+
+
+/* ----------------------------------------------------
+   O V E R W R I T E
+   ------------------------------------------------------- */
+   /*Tablet*/
+/*   @media only screen and (max-width: 760px) {
+    .gallery div {
+      width: 49%;
+      margin-right: 2%;
+      margin-left: 0;
+    }
+
+    .gallery div:nth-child(even) {
+     margin-right: 0;
+   }
+
+   /*navigation*/
+ /* nav li {
+   display: none;
+ }
+
+ nav li:last-child {
+  display: block;
+}
+ }*/
+
+
+ /*Smartphone*/
+/* @media only screen and (max-width: 480px) {
+  .gallery div {
+    width: 100%;
+    margin: 10px 0;
+  }*/
+  /*navigation*/
+ /* nav li {
+   display: none;
+ }
+
+ nav li:last-child {
+  display: block;
+}*/
+
+/*main and footers*/
+/*footer > div {
+  width: 97%; /*100%-3% margins*/
+}
+}
+
+*/*/
