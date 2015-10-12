@@ -111,6 +111,10 @@
     content: "";
   }
 
+  ul {
+    -webkit-padding-start: 5px;
+  }
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -158,8 +162,13 @@ font-family: 'Hind', sans-serif; (500, 600)*/
 
 a:hover {
   text-decoration: none;
-  color: #398265;
+/*  color: #398265;*/
+  color: #222;
 }
+
+/*h4 a:hover {
+  color: #555;
+}*/
 
 p {
   margin: 0 0 30px;
@@ -178,21 +187,20 @@ p {
     width: 15%;
     height: 50px;
     float: left;
-    margin: 10px;
     text-transform: uppercase;
     color: #398265;
   }
 
   nav li:nth-child(even) {
     margin-left: 200px;
+    margin-right: 15px;
   }
 
-  .line {
-    height: 7px;
-    width: 60%;
-    margin: 5px auto;
-    border-radius: 5px;
+/* .facets {
+        color: #FFF;
   }
+*/
+
 
 
 /* ----------------------------------------------------
@@ -218,31 +226,58 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 17px;
-    margin: 0;
+    margin: 10px 0;
     border-top: 1px solid rgba(0,0,0,0.2);
     text-transform: uppercase;
   }
 
-/*.left_nav h3{
-   border-top: 1px solid rgba(0,0,0,0.2);
-   color: #FFF;
-   text-transform: uppercase;
-   }*/
 
-   h4 {
+h4 {
+   color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+   line-height: 1px;
+   margin-left: 3em;
+   text-transform: uppercase;
+}
+   h5 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 20px;
     margin: 0;
   }
 
-  h5 {
+  h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-style: italic;
     font-size: 15px;
     margin: 0;
   }
+
+/** ----------------------------------------------------
+   S I D E B A R
+   ------------------------------------------------------- */
+
+.side_bar  {
+    background-color: #48a770;
+    width: 20%;
+    height: 450px;
+    margin: 20px 0;
+    float: left;
+  }
+
+a div .sidebar {
+    color: #FFF;
+  }
+
+/*    .line {
+    height: 7px;
+    width: 60%;
+    margin: 5px auto;
+    border-radius: 5px;
+  }*/
 
 
 /* ----------------------------------------------------
@@ -253,23 +288,18 @@ p {
    .main {
     float: left;
   }
-  .side_bar  {
-    background-color: #48a770;
-    width: 20%;
-    height: 450px;
-    margin: 20px 0;
-    float: left;
-  }
-
-  a .sidebar {
-    color: #FFF;
-  }
+  
 
   div .project_item {
     width: 73%;
-    height: 150px;
+    height: 177px;
     float: right;
     margin: 20px 1%;
+    border-bottom: 1px solid #bbb;
+  }
+
+  div .project_item:last-child {
+    border-bottom: none;
   }
 
   div .thumbnail {
@@ -281,16 +311,13 @@ p {
 
  div .description {
    width: 74%;
-   height: 130px;
+   height: 120px;
    float: left;
  }
 
- .line {
-  border-bottom: 1px solid #bbb;
-  width: 100%;
-  margin: 6px 0;
-}
-
+ div .buttons {
+  margin-top: -1.8em;
+ }
 
 /* ----------------------------------------------------
    F O O T E R
