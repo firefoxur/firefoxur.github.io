@@ -158,10 +158,41 @@ font-family: 'Hind', sans-serif; (500, 600)*/
   color: #222;
 }
 
+ h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+ h2 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h2 a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+h2 a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
 a:hover {
   text-decoration: none;
   /*  color: #398265;*/
   color: #222;
+  font-weight: bold;
 }
 
 /*h4 a:hover {
@@ -178,26 +209,25 @@ a:hover {
 
 
    nav {
-    background-image: url("../img/bannerplaceholder.jpg");
-/*    background-position: center center;*/
+    background-image: url("../img/toronto.jpg");
+    background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-    background-color: #fff;
-    height: 200px;
+    background-color: gray;
+    height: 250px;
    margin-bottom: 1.5rem;
   }
 
   nav li {
-    width: 10%;
-    height: 2rem;
+    width: 8%;
+    height: 1rem;
     text-transform: uppercase;
-    color: #398265;
+    color: #ffffff;
     float: right;
   }
 
   nav li:last-child {
-    margin-right: 40px;
     width: 15%;
   }
 
@@ -215,20 +245,22 @@ a:hover {
    h1 {
     font-family: 'Hind', sans-serif;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 4rem;
     line-height: 1;
     float: left;
     color: #ffffff;
-    margin-left: 20px;
+/*    margin-left: 20px;*/
+margin: 0.47em 1.25rem;
+    width: 25%;
     position: absolute;
   }
 
   h2 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.2rem;
     color: #ffffff;
-    margin-top: 10px;
+    margin: -.2rem 0;
   }
 
 
@@ -236,9 +268,10 @@ a:hover {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
-    margin: 0.625rem 0;
-    border-top: 1px solid rgba(0,0,0,0.2);
+    margin: 0.5rem 0;
+/*    border-top: 1px solid rgba(0,0,0,0.2);*/
     text-transform: uppercase;
+        padding-left: 15px;
   }
 
 
@@ -271,7 +304,7 @@ h6 {
    ------------------------------------------------------- */
 
    .side_bar  {
-    background-color: #48a770;
+    background-color: #fff;
     width: 20%;
     height: 450px;
     margin: 20px 0;
@@ -299,6 +332,9 @@ h6 {
     float: left;
   }
   
+  div .projects {
+    margin-top: 4rem;
+  }
 
   div .project_item {
     width: 73%;
@@ -317,6 +353,10 @@ h6 {
    height: 150px;
    float: left;
    margin-right: 1em;
+ }
+
+ div .thumbnail img{
+   border: 1px solid #bbb;
  }
 
  div .description {
