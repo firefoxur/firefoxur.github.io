@@ -140,7 +140,7 @@ font-family: 'Hind', sans-serif; (500, 600)*/
 /* ----------------------------------------------------
    G L O B A L
    ------------------------------------------------------- */
-    body {
+   body {
     font-family: 'Open Sans', 'Hind', sans-serif;
     color: #555;
     background-color: #fff;
@@ -149,12 +149,14 @@ font-family: 'Hind', sans-serif; (500, 600)*/
     padding-top: 1em;
   }
 
-  .main {
+  .report {
     background-color: #E8E8E8;
   }
 
   li {
    list-style: none;
+     margin: 1rem;
+  width: 85%;
  }
 
  a, a:visited {
@@ -162,7 +164,7 @@ font-family: 'Hind', sans-serif; (500, 600)*/
   color: #222;
 }
 
- h1 a {
+h1 a {
   text-decoration: none;
   color: #fff;
 }
@@ -178,7 +180,7 @@ h1 a:visited {
   color: #fff;
 }
 
- h2 a {
+h2 a {
   text-decoration: none;
   color: #fff;
 }
@@ -200,13 +202,6 @@ a:hover {
   font-weight: bold;
 }
 
-/*h4 a:hover {
-  color: #555;
-  }*/
-
-  p {
-    margin: 0 0 1.875rem;
-  }
 
 /* ----------------------------------------------------
    N A V I G A T I O N
@@ -214,14 +209,9 @@ a:hover {
 
 
    nav {
-   /* background-image: url("../img/toronto.jpg");
-    background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;*/
     background-color: #B44A3D;
     height: 200px;
-   margin-bottom: .2rem;
+    margin-bottom: .2rem;
   }
 
   nav li {
@@ -237,12 +227,6 @@ a:hover {
   }
 
 
-/* .facets {
-        color: #FFF;
-  }
-  */
-
-
 
 /* ----------------------------------------------------
    H E A D I N G S
@@ -254,8 +238,7 @@ a:hover {
     line-height: 1;
     float: left;
     color: #ffffff;
-/*    margin-left: 20px;*/
-margin: 0.4em 1.25rem;
+    margin: 0.4em 1.25rem;
     width: 20%;
     position: absolute;
   }
@@ -271,117 +254,64 @@ margin: 0.4em 1.25rem;
 
   h3 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 1.1rem;
-    margin: 0.5rem 0;
-/*    border-top: 1px solid rgba(0,0,0,0.2);*/
-    text-transform: uppercase;
-        padding-left: 15px;
+    font-weight: 600;
+    font-size: 2.1rem;
+    margin: 2rem 1.25rem;
   }
 
 
   h4 {
-   color: #FFF;
    font-family: 'Open Sans', sans-serif;
-   font-weight: 300;
-   font-size: .85rem;
-   line-height: 1px;
-   margin-left: 3rem;
-   text-transform: uppercase;
+   font-weight: 400;
+   font-size: 1rem;
+   font-style: italic;
+   margin: 0 1.5rem;
  }
+
  h5 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 1.25rem;
-  margin: 0;
+  font-size: 1.5rem;
+  margin: 2rem 1.25rem 0 1.25rem;
 }
 
-h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-style: italic;
-  font-size: 0.9375rem;
-  margin: 0;
+p {
+  margin: 0 0 1rem 1.25rem;
+  width: 85%;
 }
-
-/** ----------------------------------------------------
-   S I D E B A R
-   ------------------------------------------------------- */
-
-   .side_bar  {
-    background-color: #E8E8E8;
-    width: 20%;
-    height: 450px;
-    margin: 20px 0;
-    float: left;
-    border-right: .1rem solid #fff;
-     border-bottom: .1rem solid #fff;
-  }
-
-  a div .sidebar {
-    color: #FFF;
-  }
-
-/*    .line {
-    height: 7px;
-    width: 60%;
-    margin: 5px auto;
-    border-radius: 5px;
-    }*/
-
 
 /* ----------------------------------------------------
    M A I N   C O N T E N T
    ------------------------------------------------------- */
 
 
-   .main {
+   .report { 
     float: left;
   }
-  
-  div .projects {
-    margin-top: 4rem;
+
+  .title_area {
+    margin-left: 1.5rem;
   }
 
-  div .project_item {
-    width: 73%;
-    height: 177px;
-    float: right;
-    margin: 20px 1%;
-    border-bottom: .1rem solid #fff;
+  .description {
+    margin-left: 2rem;
   }
 
-  div .project_item:last-child {
-    border-bottom: none;
+  ul .bullets {
+    list-style-type: disc;
   }
 
-  div .thumbnail {
-   width: 22%;
-   height: 150px;
-   float: left;
-   margin-right: 1em;
- }
+  ul .second_bullets {
+    list-style-type: circle;
+  }
 
- div .thumbnail img{
-   border: 1px solid #bbb;
- }
-
- div .description {
-   width: 74%;
-   height: 120px;
-   float: left;
- }
-
- div .buttons {
-  margin-top: -1.8em;
-}
 
 /* ----------------------------------------------------
    F O O T E R
    ------------------------------------------------------- */
 
-  
-  footer div {
+
+   footer div {
     width: 30%;
     height: 3rem;
     float: left;
