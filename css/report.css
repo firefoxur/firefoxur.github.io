@@ -131,6 +131,7 @@ font-family: 'Hind', sans-serif; (500, 600)*/
    C O N T A I N E R
    ------------------------------------------------------- */
    #container {
+    max-width: 1024px;
     width: 80%;
     margin: 0 auto; 
     /*  margin 0 auto centers it in the page*/
@@ -153,11 +154,11 @@ font-family: 'Hind', sans-serif; (500, 600)*/
     background-color: #E8E8E8;
   }
 
-  li {
+/*  li {
    list-style: none;
      margin: 1rem;
   width: 85%;
- }
+ }*/
 
  a, a:visited {
   text-decoration: none;
@@ -203,6 +204,26 @@ a:hover {
 }
 
 
+  p {
+    margin: 0 0 1.875rem;
+  }
+
+  p a {
+    color: #155588;
+    font-weight: 600;
+  }
+
+  p a:hover {
+    color: #155588;
+    font-weight: 600;
+  }
+
+  p a:visited {
+    color: #155588;
+    font-weight: 600;
+  }
+
+
 /* ----------------------------------------------------
    N A V I G A T I O N
    ------------------------------------------------------- */
@@ -220,6 +241,7 @@ a:hover {
     text-transform: uppercase;
     color: #ffffff;
     float: right;
+    list-style: none;
   }
 
   nav li:last-child {
@@ -239,7 +261,7 @@ a:hover {
     float: left;
     color: #ffffff;
     margin: 0.4em 1.25rem;
-    width: 20%;
+    width: 18%;
     position: absolute;
   }
 
@@ -293,16 +315,25 @@ p {
     margin-left: 1.5rem;
   }
 
+  #id {
+    margin-top: 2rem;
+  }
+
   .description {
     margin-left: 2rem;
+    margin-bottom: 3rem;
   }
 
   ul .bullets {
     list-style-type: disc;
+    margin-left: 5rem;
+    line-height: 1.2rem;
   }
 
   ul .second_bullets {
     list-style-type: circle;
+    margin-left: 2rem;
+    line-height: 1.2rem;
   }
 
 
