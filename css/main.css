@@ -234,7 +234,7 @@ font-weight: bold;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;*/
-    background-color: #B44A3D;
+    background-color: #C13832;
     height: 200px;
    margin-bottom: .2rem;
   }
@@ -383,7 +383,7 @@ h6 {
  }
 
  div .description {
-   width: 90%
+   width: 90%;
    height: 120px;
    float: left;
  }
