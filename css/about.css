@@ -159,10 +159,6 @@ src: url("../fonts/MetaPro-Normal.otf") format("opentype");
     -moz-osx-font-smoothing: grayscale;
   }
 
-  .report {
-    background-color: #F6F4EC;
-  }
-
   .researchers {
     background-color: #F6F4EC;
   }
@@ -330,7 +326,7 @@ p {
    ------------------------------------------------------- */
 
 
-   .report { 
+   .researchers { 
     float: left;
   }
 
@@ -353,15 +349,6 @@ p {
 
   .gallery div:last-child{
     margin-right: 0;
-  }
-
-  .bios div {
-    /*   width: 31%;*/
-    width: 200px;
-    height: 200px;
-    float: left;
-    margin-right: 1rem;
-    margin-top: 2rem;
   }
 
   #back {
