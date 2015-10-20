@@ -117,9 +117,8 @@
    Author's custom styles
    ========================================================================== */
 /*SITE COLORS:
-Mozilla (header) Red: #C13832;
-Firefox Bright Blue (page level links): #00539F; 
-Sandstone Light (content area background): #F6F4EC;
+Header & Button Blue: #1F6798;
+Content Area Sandstone Background: #F6F4EC;
 
 /*SITE FONTS:
 font-family: MetaPro;
@@ -127,13 +126,13 @@ font-family: 'Open Sans', sans-serif; (300, 300i, 400, 600)
 font-family: 'Hind', sans-serif; (500, 600)*/
 
 @font-face {
-font-family: MetaPro-Medium;
-src: url("../fonts/MetaPro-Medium.otf") format("opentype");
+  font-family: MetaPro-Medium;
+  src: url("../fonts/MetaPro-Medium.otf") format("opentype");
 }
- 
+
 @font-face {
-font-family: MetaPro-Normal;
-src: url("../fonts/MetaPro-Normal.otf") format("opentype");
+  font-family: MetaPro-Normal;
+  src: url("../fonts/MetaPro-Normal.otf") format("opentype");
 }
 
 
@@ -153,7 +152,7 @@ src: url("../fonts/MetaPro-Normal.otf") format("opentype");
 /* ----------------------------------------------------
    G L O B A L
    ------------------------------------------------------- */
-    body {
+   body {
     font-family: 'Open Sans', 'Hind', sans-serif;
     color: #555;
     background-color: #fff;
@@ -174,7 +173,7 @@ src: url("../fonts/MetaPro-Normal.otf") format("opentype");
   color: #222;
 }
 
- h1 a {
+h1 a {
   text-decoration: none;
   color: #fff;
 }
@@ -190,7 +189,7 @@ h1 a:visited {
   color: #fff;
 }
 
- h2 a {
+h2 a {
   text-decoration: none;
   color: #fff;
   font-weight: 600;
@@ -199,8 +198,8 @@ h1 a:visited {
 h2 a:hover {
   text-decoration: none;
   color: #fff;
-   font-weight: normal;
-   font-weight: 600;
+  font-weight: normal;
+  font-weight: 600;
 }
 
 h2 a:visited {
@@ -211,35 +210,34 @@ h2 a:visited {
 
 a:hover {
   text-decoration: none;
-  /*  color: #398265;*/
   color: #222;
   font-weight: normal;
 }
 h4 a:hover {
-font-weight: bold;
+  font-weight: bold;
 }
 
-  p {
-    margin: 0 0 1.875rem;
-  }
+p {
+  margin: 0 0 1.875rem;
+}
 
-  p a {
-    color: #fff;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
+p a {
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
-  p a:hover {
-    color: #fff;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
+p a:hover {
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
-  p a:visited {
-    color: #fff;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
+p a:visited {
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
 /* ----------------------------------------------------
    N A V I G A T I O N
@@ -247,9 +245,9 @@ font-weight: bold;
 
 
    nav {
-    background-color: #C13832;
+    background-color: #1F6798;
     height: 200px;
-   margin-bottom: .2rem;
+    margin-bottom: .2rem;
   }
 
   nav li {
@@ -265,30 +263,22 @@ font-weight: bold;
   }
 
 
-/* .facets {
-        color: #FFF;
-  }
-  */
-
-
-
 /* ----------------------------------------------------
    H E A D I N G S
    ------------------------------------------------------- */
    h1 {
- font-family: MetaPro-Medium, sans-serif;
-    font-weight: 500;
-    font-size: 3.5rem;
-    line-height: 1;
-    float: left;
-    color: #ffffff;
-/*    margin-left: 20px;*/
-margin: 0.4em 1.25rem;
-    width: 18%;
-    position: absolute;
-  }
+     font-family: MetaPro-Medium, sans-serif;
+     font-weight: 500;
+     font-size: 3.5rem;
+     line-height: 1;
+     float: left;
+     color: #ffffff;
+     margin: 0.4em 1.25rem;
+     width: 18%;
+     position: absolute;
+   }
 
-  h2 {
+   h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: .95rem;
@@ -297,18 +287,15 @@ margin: 0.4em 1.25rem;
     text-transform: uppercase;
   }
 
-
   h3 {
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     font-weight: 600;
     font-size: 1.1rem;
     margin: 0.5rem 0;
-/*    border-top: 1px solid rgba(0,0,0,0.2);*/
     text-transform: uppercase;
-        padding-left: 15px;
+    padding-left: 15px;
   }
-
 
   h4 {
    color: #FFF;
@@ -316,7 +303,7 @@ margin: 0.4em 1.25rem;
    font-weight: 300;
    font-size: .85rem;
    line-height: 1px;
-   margin-left: 3rem;
+   margin-left: 2rem;
    text-transform: uppercase;
  }
  h5 {
@@ -328,11 +315,12 @@ margin: 0.4em 1.25rem;
 
 h6 {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   font-style: italic;
   font-size: .75rem;
   margin-top: 0;
   margin-bottom: .5rem;
+  color: #1F6798;
 }
 
 
@@ -347,26 +335,23 @@ h6 {
     margin-top: 10px;
     float: left;
     border-right: .1rem solid #fff;
-     border-bottom: .1rem solid #fff;
   }
 
   a div .sidebar {
     color: #FFF;
   }
 
-  .side_bar_title {
-  background-color: #C13832;
+  .side_bar_header {
+    background-color: #1F6798;
   }
 
-.facets {
-  margin: 0;
-}
-
+  .facets {
+    margin: 0;
+  }
 
 /* ----------------------------------------------------
    M A I N   C O N T E N T
    ------------------------------------------------------- */
-
 
    .main {
     float: left;
@@ -376,19 +361,18 @@ h6 {
     margin-top: 1rem;
   }
 
-    .projects_header{
-  background-color: #C13832;
-  width: 62%;
-  margin-top: 1.2rem;
-  margin-left: 18rem;
+  .projects_header{
+    background-color: #1F6798;
+    width: 62%;
+    margin-top: 1.2rem;
+    margin-left: 18rem;
   }
 
   div .project_item {
     width: 62%;
     height: 125px;
     float: right;
-/*    margin: 20px 0;*/
-margin-right: 5rem;
+    margin-right: 5rem;
     border-bottom: .1rem solid #fff;
   }
 
@@ -416,32 +400,32 @@ margin-right: 5rem;
 /* ----------------------------------------------------
    B U T T O N
    ------------------------------------------------------- */
-.button,
-.button:visited {
-  font-family: "Open Sans", sans-serif;
-  display: block;
-  float: right;
-  padding: .2rem;
-  margin-right: -3.5rem;
-  margin-top: 1rem;
-  text-align: center;
-  letter-spacing: .005rem;
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 14px;
-  border-radius: .25rem;
-  background: #00539F;
-  box-shadow: inset 0 -.15rem 0 rgba(0,0,0,.2);
-  width: 13%;
-}
+   .button,
+   .button:visited {
+    font-family: "Open Sans", sans-serif;
+    display: block;
+    float: right;
+    padding: .2rem;
+    margin-right: -2.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    letter-spacing: .005rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    border-radius: .25rem;
+    background: #1F6798;
+    box-shadow: inset 0 -.15rem 0 rgba(0,0,0,.2);
+    width: 13%;
+  }
 
 
 /* ----------------------------------------------------
    F O O T E R
    ------------------------------------------------------- */
 
-  
-  footer div {
+
+   footer div {
     width: 30%;
     height: 3rem;
     float: left;
