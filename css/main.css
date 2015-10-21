@@ -12,6 +12,7 @@
 
    html {
     font-size: 16px;
+    min-height:100%;
   }
 
 /*
@@ -100,7 +101,7 @@
      -moz-box-sizing: border-box;
      -webkit-box-sizing: border-box;
      box-sizing: border-box;
-     /*    border: solid red 2px;*/
+/*         border: solid red 2px;*/
    }
 
    .clearfix:after {
@@ -158,6 +159,7 @@ font-family: 'Hind', sans-serif; (500, 600)*/
     background-color: #fff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    height:100%;
   }
 
   .main {
@@ -246,8 +248,8 @@ p a:visited {
 
    nav {
     background-color: #1F6798;
-    height: 200px;
-    margin-bottom: .2rem;
+    height: 70px;
+    margin-bottom: 10px;
   }
 
   nav li {
@@ -262,6 +264,29 @@ p a:visited {
     width: 15%;
   }
 
+  .blurb {
+  float: right;
+  width: 60%;
+  margin: 0 auto;
+  padding: 4%;
+}
+
+  .featured_content {
+  background-color: #C13832;
+  height: 200px;
+  float: left;
+  overflow: hidden;
+  padding: 3%;
+  background-image: url(../img/TC_Asia.jpg);
+margin-bottom: 10px;
+  background-repeat: no-repeat;
+}
+
+#feature_callout h3 {
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
 
 /* ----------------------------------------------------
    H E A D I N G S
@@ -269,12 +294,12 @@ p a:visited {
    h1 {
      font-family: MetaPro-Medium, sans-serif;
      font-weight: 500;
-     font-size: 3.5rem;
+     font-size: 2.5rem;
      line-height: 1;
      float: left;
      color: #ffffff;
      margin: 0.4em 1.25rem;
-     width: 18%;
+     width: 45%;
      position: absolute;
    }
 
@@ -331,7 +356,7 @@ h6 {
    .side_bar  {
     background-color: #F6F4EC;
     width: 20%;
-    height: 450px;
+    height: 350px;
     margin-top: 10px;
     float: left;
     border-right: .1rem solid #fff;
@@ -397,6 +422,35 @@ h6 {
    float: left;
  }
 
+.read_more {
+   font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: .75rem;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  color: #1F6798;
+}
+
+.read_more:hover {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: .75rem;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  color: #1F6798;
+}
+
+.read_more:visited {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: .75rem;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  color: #1F6798;
+}
 /* ----------------------------------------------------
    B U T T O N
    ------------------------------------------------------- */

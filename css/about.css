@@ -236,8 +236,8 @@ src: url("../fonts/MetaPro-Normal.otf") format("opentype");
 
    nav {
     background-color: #1F6798;
-    height: 200px;
-    margin-bottom: .2rem;
+    height: 70px;
+    margin-bottom: 10px;
   }
 
   nav li {
@@ -261,12 +261,11 @@ src: url("../fonts/MetaPro-Normal.otf") format("opentype");
    h1 {
     font-family: MetaPro-Medium, sans-serif;
     font-weight: 500;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     line-height: 1;
     float: left;
     color: #ffffff;
     margin: 0.4em 1.25rem;
-    width: 18%;
     position: absolute;
   }
 
