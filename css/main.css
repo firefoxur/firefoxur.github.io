@@ -101,7 +101,7 @@
      -moz-box-sizing: border-box;
      -webkit-box-sizing: border-box;
      box-sizing: border-box;
-/*         border: solid red 2px;*/
+     /*         border: solid red 2px;*/
    }
 
    .clearfix:after {
@@ -162,10 +162,6 @@ font-family: 'Hind', sans-serif; (500, 600)*/
     height:100%;
   }
 
-  .main {
-    background-color: #F6F4EC;
-  }
-
   li {
    list-style: none;
  }
@@ -175,48 +171,10 @@ font-family: 'Hind', sans-serif; (500, 600)*/
   color: #222;
 }
 
-h1 a {
-  text-decoration: none;
-  color: #fff;
-}
-
-h1 a:hover {
-  text-decoration: none;
-  color: #fff;
-  font-weight: normal;
-}
-
-h1 a:visited {
-  text-decoration: none;
-  color: #fff;
-}
-
-h2 a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 600;
-}
-
-h2 a:hover {
-  text-decoration: none;
-  color: #fff;
-  font-weight: normal;
-  font-weight: 600;
-}
-
-h2 a:visited {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 600;
-}
-
 a:hover {
   text-decoration: none;
   color: #222;
   font-weight: normal;
-}
-h4 a:hover {
-  font-weight: bold;
 }
 
 p {
@@ -264,7 +222,7 @@ p a:visited {
     width: 15%;
   }
 
-  .blurb {
+  /*.blurb {
   float: right;
   width: 60%;
   margin: 0 auto;
@@ -274,8 +232,8 @@ p a:visited {
   .featured_content {
   background-color: #C13832;
   height: 200px;
-/*  float: left;*/
-  overflow: hidden;
+  /*  float: left;*/
+ /* overflow: hidden;
   padding: 3%;
   background-image: url(../img/moto.jpg);
 margin-bottom: 10px;
@@ -289,8 +247,7 @@ margin-bottom: 10px;
 #feature_callout h3 {
   font-style: italic;
   font-size: 1.1rem;
-}
-
+  }*/
 
 /* ----------------------------------------------------
    H E A D I N G S
@@ -307,13 +264,48 @@ margin-bottom: 10px;
      position: absolute;
    }
 
-   h2 {
+   h1 a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  h1 a:hover {
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+  }
+
+  h1 a:visited {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: .95rem;
     color: #ffffff;
     margin: .5rem, 0;
     text-transform: uppercase;
+  }
+
+  h2 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  h2 a:hover {
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    font-weight: 600;
+  }
+
+  h2 a:visited {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
   }
 
   h3 {
@@ -335,7 +327,12 @@ margin-bottom: 10px;
    margin-left: 2rem;
    text-transform: uppercase;
  }
- h5 {
+
+ h4 a:hover {
+  font-weight: bold;
+}
+
+h5 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 1.25rem;
@@ -364,9 +361,10 @@ h6 {
     margin-top: 10px;
     float: left;
     border-right: .1rem solid #fff;
+    font-size: .8rem;
   }
 
-  a div .sidebar {
+  a .sidebar {
     color: #FFF;
   }
 
@@ -384,56 +382,62 @@ h6 {
 
    .main {
     float: left;
+    background-color: #F6F4EC;
   }
   
   div .projects {
     margin-top: 1rem;
   }
 
-  .projects_header{
+  .projects_header {
     background-color: #1F6798;
-    width: 62%;
+    width: 65%;
     margin-top: 1.2rem;
     margin-left: 18rem;
   }
 
-  div .project_item {
-    width: 62%;
-    height: 125px;
-    float: right;
-    margin-right: 5rem;
-    border-bottom: .1rem solid #fff;
-  }
+  /*div .tag_display {
+width: 30%;
+height: 125px;
+float: left;
+}*/
 
-  div .project_item:last-child {
-    border-bottom: none;
-  }
+div .project_item {
+  width: 55%;
+  height: 125px;
+  float: right;
+  margin-right: 10.5rem;
+  border-bottom: .1rem solid #fff;
+}
 
-  div .thumbnail {
-   width: 22%;
-   height: 150px;
-   float: left;
-   margin-right: 1em;
- }
+div .project_item:last-child {
+  border-bottom: none;
+}
 
- div .thumbnail img{
-   border: 1px solid #bbb;
- }
+li .related_tags {
+ width: 22%;
+ height: 150px;
+ float: left;
+ margin-right: 1em;
+ font-size: .5rem;
+}
 
- div .description {
-   width: 90%;
-   height: 120px;
-   float: left;
- }
+
+
+div .description {
+ width: 90%;
+ height: 120px;
+ float: left;
+}
 
 .read_more {
-   font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-style: italic;
-  font-size: .75rem;
-  margin-top: 0;
-  margin-bottom: .5rem;
-  color: #1F6798;
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 600;
+ font-style: italic;
+ font-size: .75rem;
+ margin-top: 0;
+ margin-bottom: .5rem;
+ color: #1F6798;
 }
 
 .read_more:hover {
@@ -458,7 +462,7 @@ h6 {
 /* ----------------------------------------------------
    B U T T O N
    ------------------------------------------------------- */
-   .button,
+/*   .button,
    .button:visited {
     font-family: "Open Sans", sans-serif;
     display: block;
@@ -475,7 +479,7 @@ h6 {
     background: #1F6798;
     box-shadow: inset 0 -.15rem 0 rgba(0,0,0,.2);
     width: 13%;
-  }
+    }*/
 
 
 /* ----------------------------------------------------
@@ -492,7 +496,6 @@ h6 {
 
   footer {
    clear: left;
-   position:relative;
  }
 
 

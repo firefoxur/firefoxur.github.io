@@ -126,13 +126,13 @@ font-family: 'Open Sans', sans-serif; (300, 300i, 400, 600)
 font-family: 'Hind', sans-serif; (500, 600)*/
 
 @font-face {
-font-family: MetaPro-Medium;
-src: url("../fonts/MetaPro-Medium.otf") format("opentype");
+  font-family: MetaPro-Medium;
+  src: url("../fonts/MetaPro-Medium.otf") format("opentype");
 }
- 
+
 @font-face {
-font-family: MetaPro-Normal;
-src: url("../fonts/MetaPro-Normal.otf") format("opentype");
+  font-family: MetaPro-Normal;
+  src: url("../fonts/MetaPro-Normal.otf") format("opentype");
 }
 
 
@@ -279,45 +279,45 @@ src: url("../fonts/MetaPro-Normal.otf") format("opentype");
     margin: 0.4em 1.25rem;
     width: 18%;
     position: absolute;
-  }*/
+    }*/
 
-  h2 {
+    h2 {
+      font-family: Open Sans, sans-serif;
+      font-weight: 600;
+      font-size: .95rem;
+      color: #ffffff;
+      margin: .5rem, 0;
+      text-transform: uppercase;
+    }
+
+
+    h3 {
+      font-family: Open Sans, sans-serif;
+      font-weight: 600;
+      font-size: 2.1rem;
+      /*    margin: 2rem 1.25rem;*/
+    }
+
+
+    h4 {
+     font-family: Open Sans, sans-serif;
+     font-weight: 400;
+     font-size: 1rem;
+     font-style: italic;
+     margin: 0 1.5rem;
+   }
+
+   h5 {
     font-family: Open Sans, sans-serif;
-    font-weight: 600;
-    font-size: .95rem;
-    color: #ffffff;
-    margin: .5rem, 0;
-    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 2rem 1.25rem 0 1.25rem;
   }
 
-
-  h3 {
-    font-family: Open Sans, sans-serif;
-    font-weight: 600;
-    font-size: 2.1rem;
-/*    margin: 2rem 1.25rem;*/
+  p {
+    margin: 0 0 1rem 1.25rem;
+    width: 85%;
   }
-
-
-  h4 {
-   font-family: Open Sans, sans-serif;
-   font-weight: 400;
-   font-size: 1rem;
-   font-style: italic;
-   margin: 0 1.5rem;
- }
-
- h5 {
-  font-family: Open Sans, sans-serif;
-  font-weight: 300;
-  font-size: 1.5rem;
-  margin: 2rem 1.25rem 0 1.25rem;
-}
-
-p {
-  margin: 0 0 1rem 1.25rem;
-  width: 85%;
-}
 
 /* ----------------------------------------------------
    M A I N   C O N T E N T
