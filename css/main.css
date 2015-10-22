@@ -274,13 +274,17 @@ p a:visited {
   .featured_content {
   background-color: #C13832;
   height: 200px;
-  float: left;
+/*  float: left;*/
   overflow: hidden;
   padding: 3%;
-  background-image: url(../img/TC_Asia.jpg);
+  background-image: url(../img/moto.jpg);
 margin-bottom: 10px;
+  background-position: center center;
   background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
 
 #feature_callout h3 {
   font-style: italic;
@@ -353,7 +357,7 @@ h6 {
    S I D E B A R
    ------------------------------------------------------- */
 
-   .side_bar  {
+   .sidebar  {
     background-color: #F6F4EC;
     width: 20%;
     height: 350px;
@@ -366,11 +370,11 @@ h6 {
     color: #FFF;
   }
 
-  .side_bar_header {
+  .sidebar_header {
     background-color: #1F6798;
   }
 
-  .facets {
+  .list_group{
     margin: 0;
   }
 
@@ -488,6 +492,7 @@ h6 {
 
   footer {
    clear: left;
+   position:relative;
  }
 
 
