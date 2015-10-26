@@ -10,11 +10,6 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-   html {
-    font-size: 16px;
-    min-height:100%;
-  }
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -97,14 +92,14 @@
    Global Overrides
    ========================================================================== */
    * {
-     width: 100%;
-     -moz-box-sizing: border-box;
-     -webkit-box-sizing: border-box;
-     box-sizing: border-box;
-     /*         border: solid red 2px;*/
-   }
+    /*     width: 100%;*/
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /*   border: solid red 2px;*/
+  }
 
-   .clearfix:after {
+  .clearfix:after {
     display: table;
     clear: both;
     content: "";
@@ -137,36 +132,51 @@ font-family: 'Hind', sans-serif; (500, 600)*/
 }
 
 
-
-/*LATO?*/
 /* ----------------------------------------------------
    C O N T A I N E R
    ------------------------------------------------------- */
-   #container {
-    max-width: 1024px;
-    width: 80%;
+/*   #container {
+  /*    max-width: 1024px;*/
+  /*  width: 80%;
     margin: 0 auto; 
-    /*  margin 0 auto centers it in the page*/
+      margin 0 auto centers it in the page
   }
-
+  */
 
 /* ----------------------------------------------------
    G L O B A L
    ------------------------------------------------------- */
-   body {
-    font-family: 'Open Sans', 'Hind', sans-serif;
-    color: #555;
+   html {
+    font-size: 18px;
+    min-height: 100%;
+  }
+
+  body {
+    font-family: "Open Sans", sans-serif;
+    color: #494949;
     background-color: #fff;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0 3rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    height:100%;
+  }
+
+  a {
+    -webkit-transition: all 300ms;
+    text-decoration: none;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
   }
 
   li {
    list-style: none;
  }
 
- a, a:visited {
+/* a, a:visited {
   text-decoration: none;
   color: #222;
 }
@@ -178,7 +188,7 @@ a:hover {
 }
 
 p {
-  margin: 0 0 1.875rem;
+  margin: 0 0 0 0;
 }
 
 p a {
@@ -187,39 +197,74 @@ p a {
   text-transform: uppercase;
 }
 
-p a:hover {
+p a:hover, a:visited {
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
-}
+  }*/
 
-p a:visited {
+  /*Trying to clean this up, added a:visited above.*/
+/*p a:visited {
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
-}
+  }*/
+/*
+* ----------------------------------------------------
+   G L O B A L
+   ------------------------------------------------------- */
+   #main {
+    width: 100%;
+    float: left;
+  }
+
+  #wrapper {
+    margin-top: 1rem;
+  }
+
+  #sidebar  {
+    width: 18%;
+    margin-top: .2em;
+    margin-bottom: .2rem;
+    float: left;
+    font-size: .9rem;
+    border: .1rem solid #888;
+  }
+
+  #projects  {
+    width: 70%;
+    margin-top: .2em;
+    float: left;
+  }
+
+
 
 /* ----------------------------------------------------
    N A V I G A T I O N
    ------------------------------------------------------- */
 
-
    nav {
     background-color: #1F6798;
-    height: 70px;
-    margin-bottom: 10px;
+    height: 3.5rem;
+    margin-bottom: .5rem;
   }
 
-  nav li {
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  header nav ul li {
+    color: #fff;
+/*    float: left;*/
+    margin: 0;
+    padding: 0;
     width: 8%;
-    height: 1rem;
     text-transform: uppercase;
-    color: #ffffff;
-    float: right;
   }
 
-  nav li:last-child {
-    width: 15%;
+  header nav a:hover {
+    color: #fff;
+    background: #8b8f93;
   }
 
   /*.blurb {
@@ -252,101 +297,76 @@ margin-bottom: 10px;
 /* ----------------------------------------------------
    H E A D I N G S
    ------------------------------------------------------- */
-   h1 {
-     font-family: MetaPro-Medium, sans-serif;
-     font-weight: 500;
-     font-size: 2.5rem;
-     line-height: 1;
-     float: left;
-     color: #ffffff;
-     margin: 0.4em 1.25rem;
-     width: 45%;
-     position: absolute;
-   }
-
-   h1 a {
-    text-decoration: none;
-    color: #fff;
+   h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
   }
 
-  h1 a:hover {
-    text-decoration: none;
-    color: #fff;
-    font-weight: normal;
-  }
-
-  h1 a:visited {
-    text-decoration: none;
-    color: #fff;
-  }
-
-  h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: .95rem;
-    color: #ffffff;
-    margin: .5rem, 0;
-    text-transform: uppercase;
-  }
-
-  h2 a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
-  }
-
-  h2 a:hover {
-    text-decoration: none;
-    color: #fff;
-    font-weight: normal;
-    font-weight: 600;
-  }
-
-  h2 a:visited {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
-  }
-
-  h3 {
-    font-family: 'Open Sans', sans-serif;
-    color: #fff;
-    font-weight: 600;
-    font-size: 1.1rem;
-    margin: 0.5rem 0;
-    text-transform: uppercase;
-    padding-left: 15px;
-  }
-
-  h4 {
-   color: #FFF;
-   font-family: 'Open Sans', sans-serif;
-   font-weight: 300;
-   font-size: .85rem;
-   line-height: 1px;
-   margin-left: 2rem;
-   text-transform: uppercase;
+  h1 {
+   font-family: "MetaPro-Medium", sans-serif;
+   font-size: 2.5rem;
+   font-weight: 500;
+   line-height: 1;
+   float: left;
+   color: #fff;
+   margin: 0.4em 1.25rem;
+   width: 45%;
+   position: absolute;
  }
 
- h4 a:hover {
-  font-weight: bold;
+ h1 a, h1 a:visited {
+  color: #fff;
+}
+
+h1 a:hover {
+  font-weight: normal;
+  color: #fff;
+}
+
+h2 {
+  font-size: .95rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h2 a, h2 a:visited {
+  color: #fff;
+}
+
+h2 a:hover {
+  font-weight: 600;
+color: rgba(21, 85, 136, .5);
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: .75rem 0 .25rem 1rem;
+}
+
+h4 {
+ font-size: .75rem;
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 0;
+  color: #1F6798;
 }
 
 h5 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
+  font-weight: 500;
   margin: 0;
 }
 
-h6 {
-  font-family: 'Open Sans', sans-serif;
+h6 a, h6 a:visited, h6 a:hover {
   font-weight: 600;
   font-style: italic;
-  font-size: .75rem;
-  margin-top: 0;
-  margin-bottom: .5rem;
+  font-size: .9rem;
   color: #1F6798;
+  font-weight: bold;
 }
 
 
@@ -354,94 +374,106 @@ h6 {
    S I D E B A R
    ------------------------------------------------------- */
 
-   .sidebar  {
-    background-color: #F6F4EC;
-    width: 20%;
-    height: 350px;
-    margin-top: 10px;
-    float: left;
-    border-right: .1rem solid #fff;
+   form {
+    margin-left: 1rem;
     font-size: .8rem;
   }
 
-  a .sidebar {
-    color: #FFF;
-  }
-
-  .sidebar_header {
-    background-color: #1F6798;
-  }
-
-  .list_group{
-    margin: 0;
+  input:last-of-type {
+    margin-bottom: 1rem;
   }
 
 /* ----------------------------------------------------
    M A I N   C O N T E N T
    ------------------------------------------------------- */
+   /* .article_module div {*/
+    /*   width: 50%;*/
+    /*   float: left;*/
+    /*   margin: 10px 1%;*/
+    /* }*/
 
-   .main {
-    float: left;
-    background-color: #F6F4EC;
-  }
-  
-  div .projects {
-    margin-top: 1rem;
-  }
+/* .gallery div:first-child {
+   margin-left: 0;
+   }*/
 
-  .projects_header {
-    background-color: #1F6798;
-    width: 65%;
-    margin-top: 1.2rem;
-    margin-left: 18rem;
-  }
+/* .gallery div:last-child {
+   margin-right: 0;
+ }
+ */
+ .projects_header {
+  border: .1rem solid #888;
+  width: 90%;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  /*padding-left: .5rem;*/
+  padding-bottom: .3rem;
+}
 
-  /*div .tag_display {
-width: 30%;
-height: 125px;
-float: left;
-}*/
+.projects {
+  width: 90%;
+}
 
 div .project_item {
-  width: 55%;
-  height: 125px;
-  float: right;
-  margin-right: 10.5rem;
-  border-bottom: .1rem solid #fff;
+  width: 75%;
+  background-color: rgba(227, 231, 234, .2);
+  /*  height: 125px;*/
+  /*    clear: left;*/
+  margin-left: 3.2rem;
+  margin-bottom: 1rem;
+  /*    display: block;*/
+/*  border-bottom: .1rem solid #888;
+border-right: .1rem solid #888;*/
 }
 
-div .project_item:last-child {
+/*div .project_item:last-child {
   border-bottom: none;
+  }*/
+
+  div .project_item a:hover {
+   color: rgba(21, 85, 136, .5);
+  }
+
+ /* .related_tags {
+      height: 150px;
+   font-size: .70rem;
+   color: #1F6798;
+   padding: 0;
+   margin: .5rem;
+ }
+*/
+
+ article p {
+  font-size: .9rem;
 }
 
-li .related_tags {
- width: 22%;
- height: 150px;
- float: left;
- margin-right: 1em;
- font-size: .5rem;
-}
+/*div .entry {
+  float: right;
+   width: 60%;
+}*/
+
+/*div .tag_group {
+  float: left;
+   width: 20%;
+   border-right: .1rem solid #fff;
+}*/
 
 
+/* article {
+ width: 50%;
+height: 120px;
+/* float: left;*/
 
-div .description {
- width: 90%;
- height: 120px;
- float: left;
-}
 
-.read_more {
- font-family: 'Open Sans', sans-serif;
+/*#projects .read_more a {
  font-weight: 600;
  font-style: italic;
  font-size: .75rem;
- margin-top: 0;
- margin-bottom: .5rem;
+ margin-left: 29rem;
  color: #1F6798;
-}
+ }*/
 
+/*CLEAN UP
 .read_more:hover {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-style: italic;
   font-size: .75rem;
@@ -450,21 +482,20 @@ div .description {
   color: #1F6798;
 }
 
+CLEAN UP
 .read_more:visited {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-style: italic;
   font-size: .75rem;
   margin-top: 0;
   margin-bottom: .5rem;
   color: #1F6798;
-}
+  }*/
 /* ----------------------------------------------------
    B U T T O N
    ------------------------------------------------------- */
 /*   .button,
    .button:visited {
-    font-family: "Open Sans", sans-serif;
     display: block;
     float: right;
     padding: .2rem;
@@ -489,13 +520,12 @@ div .description {
 
    footer div {
     width: 30%;
-    height: 3rem;
-    float: left;
     margin: 1rem;
   }
 
   footer {
-   clear: left;
+   clear: both;
+   font-size: .8rem;
  }
 
 
