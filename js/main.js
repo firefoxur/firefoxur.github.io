@@ -1,3 +1,5 @@
+// F I L T E R I N G
+
 var $results=$('.project_item'),
 $checks=$(':checkbox');
 
@@ -38,6 +40,30 @@ $checks.change(function(){
 	if(!$results.length){
 		alert('Ooops...no matches');
 	}
-
-
 });
+
+
+// C U R R E N T - P A G E
+// $(document).ready(function() {
+//     $(".nav_highlight li").on("click", function() {
+//         $(".nav_highlight li").removeClass("active");
+//         $(this).addClass("active");
+//     });
+// });
+
+
+// var url = window.location.href;
+//         $('.nav_highlight a').filter(function() {
+//     return this.href == url;
+// }).addClass('active');
+//     });
+
+
+var i = document.location.href.lastIndexOf("/");
+var current = document.location.href.substr(i+1);
+
+    $(".nav_highlight a").removeClass('active');
+
+    $(".nav_highlight a[href^='"+current+"']").each(function(){
+        $(this).addClass('active');
+    });
