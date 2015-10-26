@@ -92,7 +92,6 @@
    Global Overrides
    ========================================================================== */
    * {
-    /*     width: 100%;*/
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -176,41 +175,8 @@ font-family: 'Hind', sans-serif; (500, 600)*/
    list-style: none;
  }
 
-/* a, a:visited {
-  text-decoration: none;
-  color: #222;
-}
 
-a:hover {
-  text-decoration: none;
-  color: #222;
-  font-weight: normal;
-}
-
-p {
-  margin: 0 0 0 0;
-}
-
-p a {
-  color: #fff;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-p a:hover, a:visited {
-  color: #fff;
-  font-weight: 600;
-  text-transform: uppercase;
-  }*/
-
-  /*Trying to clean this up, added a:visited above.*/
-/*p a:visited {
-  color: #fff;
-  font-weight: 600;
-  text-transform: uppercase;
-  }*/
-/*
-* ----------------------------------------------------
+/** ----------------------------------------------------
    G L O B A L
    ------------------------------------------------------- */
    #main {
@@ -223,7 +189,7 @@ p a:hover, a:visited {
   }
 
   #sidebar  {
-    width: 18%;
+    width: 20%;
     margin-top: .2em;
     margin-bottom: .2rem;
     float: left;
@@ -237,28 +203,22 @@ p a:hover, a:visited {
     float: left;
   }
 
-
-
 /* ----------------------------------------------------
    N A V I G A T I O N
    ------------------------------------------------------- */
 
    nav {
     background-color: #1F6798;
-    height: 3.5rem;
+    height: 4.5rem;
     margin-bottom: .5rem;
-  }
-
-  nav > ul > li {
-    display: inline-block;
   }
 
   header nav ul li {
     color: #fff;
-/*    float: left;*/
-    margin: 0;
+    float: right;
+    margin-left: 1rem;
     padding: 0;
-    width: 8%;
+    width: 11.5%;
     text-transform: uppercase;
   }
 
@@ -266,33 +226,6 @@ p a:hover, a:visited {
     color: #fff;
     background: #8b8f93;
   }
-
-  /*.blurb {
-  float: right;
-  width: 60%;
-  margin: 0 auto;
-  padding: 4%;
-}
-
-  .featured_content {
-  background-color: #C13832;
-  height: 200px;
-  /*  float: left;*/
- /* overflow: hidden;
-  padding: 3%;
-  background-image: url(../img/moto.jpg);
-margin-bottom: 10px;
-  background-position: center center;
-  background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-
-#feature_callout h3 {
-  font-style: italic;
-  font-size: 1.1rem;
-  }*/
 
 /* ----------------------------------------------------
    H E A D I N G S
@@ -324,7 +257,7 @@ h1 a:hover {
 }
 
 h2 {
-  font-size: .95rem;
+  font-size: .90rem;
   font-weight: 600;
   color: #fff;
   margin: 0;
@@ -337,7 +270,7 @@ h2 a, h2 a:visited {
 
 h2 a:hover {
   font-weight: 600;
-color: rgba(21, 85, 136, .5);
+  color: rgba(21, 85, 136, .5);
   font-weight: normal;
 }
 
@@ -349,10 +282,10 @@ h3 {
 
 h4 {
  font-size: .75rem;
-  font-weight: 600;
-  font-style: italic;
-  margin-top: 0;
-  color: #1F6798;
+ font-weight: 600;
+ font-style: italic;
+ margin-top: 0;
+ color: #1F6798;
 }
 
 h5 {
@@ -368,7 +301,6 @@ h6 a, h6 a:visited, h6 a:hover {
   color: #1F6798;
   font-weight: bold;
 }
-
 
 /** ----------------------------------------------------
    S I D E B A R
@@ -386,52 +318,30 @@ h6 a, h6 a:visited, h6 a:hover {
 /* ----------------------------------------------------
    M A I N   C O N T E N T
    ------------------------------------------------------- */
-   /* .article_module div {*/
-    /*   width: 50%;*/
-    /*   float: left;*/
-    /*   margin: 10px 1%;*/
-    /* }*/
 
-/* .gallery div:first-child {
-   margin-left: 0;
-   }*/
+   .projects_header {
+    border: .1rem solid #888;
+    width: 82.5%;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    /*padding-left: .5rem;*/
+    padding-bottom: .3rem;
+  }
 
-/* .gallery div:last-child {
-   margin-right: 0;
- }
- */
- .projects_header {
-  border: .1rem solid #888;
-  width: 90%;
-  margin-left: 3rem;
-  margin-bottom: 1rem;
-  /*padding-left: .5rem;*/
-  padding-bottom: .3rem;
-}
+  .projects {
+    width: 90%;
+  }
 
-.projects {
-  width: 90%;
-}
-
-div .project_item {
-  width: 75%;
-  background-color: rgba(227, 231, 234, .2);
-  /*  height: 125px;*/
-  /*    clear: left;*/
-  margin-left: 3.2rem;
-  margin-bottom: 1rem;
-  /*    display: block;*/
-/*  border-bottom: .1rem solid #888;
-border-right: .1rem solid #888;*/
-}
-
-/*div .project_item:last-child {
-  border-bottom: none;
-  }*/
+  div .project_item {
+    width: 75%;
+    background-color: rgba(227, 231, 234, .2);
+    margin-left: 3.2rem;
+    margin-bottom: 1rem;
+  }
 
   div .project_item a:hover {
    color: rgba(21, 85, 136, .5);
-  }
+ }
 
  /* .related_tags {
       height: 150px;
@@ -440,83 +350,15 @@ border-right: .1rem solid #888;*/
    padding: 0;
    margin: .5rem;
  }
-*/
+ */
 
  article p {
   font-size: .9rem;
 }
 
-/*div .entry {
-  float: right;
-   width: 60%;
-}*/
-
-/*div .tag_group {
-  float: left;
-   width: 20%;
-   border-right: .1rem solid #fff;
-}*/
-
-
-/* article {
- width: 50%;
-height: 120px;
-/* float: left;*/
-
-
-/*#projects .read_more a {
- font-weight: 600;
- font-style: italic;
- font-size: .75rem;
- margin-left: 29rem;
- color: #1F6798;
- }*/
-
-/*CLEAN UP
-.read_more:hover {
-  font-weight: 600;
-  font-style: italic;
-  font-size: .75rem;
-  margin-top: 0;
-  margin-bottom: .5rem;
-  color: #1F6798;
-}
-
-CLEAN UP
-.read_more:visited {
-  font-weight: 600;
-  font-style: italic;
-  font-size: .75rem;
-  margin-top: 0;
-  margin-bottom: .5rem;
-  color: #1F6798;
-  }*/
-/* ----------------------------------------------------
-   B U T T O N
-   ------------------------------------------------------- */
-/*   .button,
-   .button:visited {
-    display: block;
-    float: right;
-    padding: .2rem;
-    margin-right: -2.5rem;
-    margin-top: 1rem;
-    text-align: center;
-    letter-spacing: .005rem;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 14px;
-    border-radius: .25rem;
-    background: #1F6798;
-    box-shadow: inset 0 -.15rem 0 rgba(0,0,0,.2);
-    width: 13%;
-    }*/
-
-
 /* ----------------------------------------------------
    F O O T E R
    ------------------------------------------------------- */
-
 
    footer div {
     width: 30%;
@@ -527,8 +369,6 @@ CLEAN UP
    clear: both;
    font-size: .8rem;
  }
-
-
 
 /* ==========================================================================
    Helper classes
