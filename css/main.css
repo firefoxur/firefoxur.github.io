@@ -177,7 +177,7 @@ font-family: 'Hind', sans-serif; (500, 600)*/
 
 
 /** ----------------------------------------------------
-   G L O B A L
+L A Y O U T
    ------------------------------------------------------- */
    #main {
     width: 100%;
@@ -277,7 +277,7 @@ h2 a:hover {
 h3 {
   font-weight: 600;
   font-size: 1.2rem;
-  margin: .75rem 0 .25rem 1rem;
+  margin: .5rem;
 }
 
 h4 {
@@ -285,7 +285,7 @@ h4 {
  font-weight: 600;
  font-style: italic;
  margin-top: 0;
- color: #1F6798;
+/* color: #1F6798;*/
 }
 
 h5 {
@@ -324,7 +324,6 @@ h6 a, h6 a:visited, h6 a:hover {
     width: 82.5%;
     margin-left: 3rem;
     margin-bottom: 1rem;
-    /*padding-left: .5rem;*/
     padding-bottom: .3rem;
   }
 
@@ -333,8 +332,9 @@ h6 a, h6 a:visited, h6 a:hover {
   }
 
   div .project_item {
-    width: 75%;
+    width: 82.5%;
     background-color: rgba(227, 231, 234, .2);
+    padding: .5rem;
     margin-left: 3.2rem;
     margin-bottom: 1rem;
   }

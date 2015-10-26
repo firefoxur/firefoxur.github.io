@@ -140,268 +140,257 @@ font-family: 'Hind', sans-serif; (500, 600)*/
 /* ----------------------------------------------------
    C O N T A I N E R
    ------------------------------------------------------- */
-   #container {
+/*   #container {
     max-width: 1024px;
     width: 80%;
     margin: 0 auto; 
     /*  margin 0 auto centers it in the page*/
-  }
+ /* }*/
 
 
 /* ----------------------------------------------------
    G L O B A L
    ------------------------------------------------------- */
+     html {
+    font-size: 18px;
+    min-height: 100%;
+  }
    body {
-    font-family: 'Open Sans', 'Hind', sans-serif;
-    color: #555;
+     font-family: "Open Sans", sans-serif;
+    color: #494949;
     background-color: #fff;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0 3rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
-  .report {
-    background-color: #F6F4EC;
-  }
-
-  .researchers {
-    background-color: #F6F4EC;
-  }
-
-  a, a:visited {
+  a {
+     -webkit-transition: all 300ms;
     text-decoration: none;
-    color: #222;
   }
 
-  h1 a {
-    text-decoration: none;
-    color: #fff;
+ p {
+    margin-bottom: .5rem;
+    padding: 0;
   }
 
-  h1 a:hover {
-    text-decoration: none;
-    color: #fff;
-    font-weight: normal;
+  li {
+   list-style: none;
+ }
+
+ .bullets li {
+    margin: 0 0 0 1rem;
+    list-style: circle;
+ }
+
+ .second_bullets li {
+    margin: 0 0 0 1.5rem;
+ }
+/** ----------------------------------------------------
+  L A Y O U T
+   ------------------------------------------------------- */
+   #main {
+    width: 100%;
+    float: left;
   }
 
-  h1 a:visited {
-    text-decoration: none;
-    color: #fff;
+  #wrapper {
+    margin-top: 1rem;
   }
 
-  h2 a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
+   #sidebar  {
+    width: 20%;
+    margin-top: .2em;
+    margin-bottom: .2rem;
+    float: left;
+    font-size: .9rem;
+    border: .1rem solid #888;
   }
 
-  h2 a:hover {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
+  #report  {
+    width: 75%;
+    margin-top: .2em;
+    float: left;
   }
-
-  h2 a:visited {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
-  }
-
-  a:hover {
-    text-decoration: none;
-    /*  color: #398265;*/
-    color: #222;
-    font-weight: bold;
-  }
-
-
-  p {
-    margin: 0 0 1.875rem;
-  }
-
-  p a {
-    color: #1F6798;
-    font-weight: 600;
-  }
-
-  p a:hover {
-    color: #1F6798;
-    font-weight: 600;
-  }
-
-  p a:visited {
-    color: #1F6798;
-    font-weight: 600;
-  }
-
 
 /* ----------------------------------------------------
    N A V I G A T I O N
    ------------------------------------------------------- */
 
-
-   nav {
+ nav {
     background-color: #1F6798;
-    height: 70px;
-    margin-bottom: 10px;
+    height: 4.5rem;
+    margin-bottom: .5rem;
   }
 
-  nav li {
-    width: 8%;
-    height: 1rem;
-    text-transform: uppercase;
-    color: #ffffff;
+  header nav ul li {
+    color: #fff;
     float: right;
-    list-style: none;
+    margin-left: 1rem;
+    padding: 0;
+    width: 11.5%;
+    text-transform: uppercase;
   }
 
-  nav li:last-child {
-    width: 15%;
+  header nav a:hover {
+    color: #fff;
+    background: #8b8f93;
   }
-
-
 
 /* ----------------------------------------------------
    H E A D I N G S
    ------------------------------------------------------- */
-   h1 {
-    font-family: MetaPro-Medium, sans-serif;
-    font-weight: 500;
-    font-size: 2.5rem;
-    line-height: 1;
-    float: left;
-    color: #ffffff;
-    margin: 0.4em 1.25rem;
-    position: absolute;
+   h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
   }
 
- /* .normal h1 {
-    font-family: MetaPro-Normal, sans-serif;
-      font-weight: 500;
-    font-size: 3.5rem;
-    line-height: 1;
-    float: left;
-    color: #ffffff;
-    margin: 0.4em 1.25rem;
-    width: 18%;
-    position: absolute;
-    }*/
+  h1 {
+   font-family: "MetaPro-Medium", sans-serif;
+   font-size: 2.5rem;
+   font-weight: 500;
+   line-height: 1;
+   float: left;
+   color: #fff;
+   margin: 0.4em 1.25rem;
+   width: 45%;
+   position: absolute;
+ }
 
-    h2 {
-      font-family: Open Sans, sans-serif;
-      font-weight: 600;
-      font-size: .95rem;
-      color: #ffffff;
-      margin: .5rem, 0;
-      text-transform: uppercase;
-    }
+ h1 a, h1 a:visited {
+  color: #fff;
+}
+
+h1 a:hover {
+  font-weight: normal;
+  color: #fff;
+}
+
+h2 {
+  font-size: .90rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h2 a, h2 a:visited {
+  color: #fff;
+}
+
+h2 a:hover {
+  font-weight: 600;
+  color: rgba(21, 85, 136, .5);
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: .5rem 0 0 .5rem;
+}
+
+h4 {
+font-size: .7rem;
+  font-weight: 500;
+  color: #494949;
+  margin-left: .5rem;
+}
+
+h4:last-of-type {
+  margin-bottom: .5rem;
+}
+
+h5 {
+  margin: .5rem;
+ font-size: 1.2rem;
+  font-weight: 600;
+}
+
+h6 {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1rem;
+/*  color: #1F6798;*/
+  margin-top: .5rem;
+}
 
 
-    h3 {
-      font-family: Open Sans, sans-serif;
-      font-weight: 600;
-      font-size: 2.1rem;
-      margin: 2rem 1.25rem;
-    }
+/** ----------------------------------------------------
+   S I D E B A R
+   ------------------------------------------------------- */
 
-
-    h4 {
-     font-family: Open Sans, sans-serif;
-     font-weight: 400;
-     font-size: 1rem;
-     font-style: italic;
-     margin: 0 1.5rem;
-   }
-
-   h5 {
-    font-family: Open Sans, sans-serif;
-    font-weight: 300;
-    font-size: 1.5rem;
-    margin: 2rem 1.25rem 0 1.25rem;
+   form {
+    margin-left: 1rem;
+    font-size: .8rem;
   }
 
-  p {
-    margin: 0 0 1rem 1.25rem;
-    width: 85%;
+  input:last-of-type {
+    margin-bottom: 1rem;
   }
+
 
 /* ----------------------------------------------------
    M A I N   C O N T E N T
    ------------------------------------------------------- */
 
 
-   .report { 
-    float: left;
+   .title {
+    border: .1rem solid #888;
+    width: 82.5%;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    margin-top: -2.5rem;
+    padding-bottom: .3rem;
   }
 
-  .title_area {
-    margin-left: 1.5rem;
+
+  article {
+    width: 82.5%;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
   }
 
-  .gallery div {
-    /*   width: 31%;*/
-    width: 300px;
-    height: 200px;
-    float: left;
-    margin-right: 1rem;
-    margin-top: 2rem;
-  }
+  div .project_item a:hover {
+   color: rgba(21, 85, 136, .5);
+ }
 
-  .gallery div:first-child {
-    margin-left: 2.8rem;
-  }
+ #back {
+  margin-bottom: 1rem;
+  width: 15%;
+ }
 
-  .gallery div:last-child{
-    margin-right: 0;
-  }
+#back a, #back a:visited {
+  color: #1F6798;
+  font-weight: 600;
+  margin-left: .25rem;
+}
 
-  .bios div {
-    /*   width: 31%;*/
-    width: 200px;
-    height: 200px;
-    float: left;
-    margin-right: 1rem;
-    margin-top: 2rem;
-  }
+#back a:hover {
+color: rgba(21, 85, 136, .5);
+ font-weight: 600;
+}
 
-  #back {
-    margin-top: 2rem;
-  }
-
-  .description {
-    margin-left: 2rem;
-    margin-bottom: 3rem;
-  }
-
-  ul .bullets {
-    list-style-type: disc;
-    margin-left: 5rem;
-    line-height: 1.2rem;
-  }
-
-  ul .second_bullets {
-    list-style-type: circle;
-    margin-left: 2rem;
-    line-height: 1.2rem;
-  }
+ article p {
+  font-size: .9rem;
+}
 
 
 /* ----------------------------------------------------
    F O O T E R
    ------------------------------------------------------- */
 
-
    footer div {
     width: 30%;
-    height: 3rem;
-    float: left;
     margin: 1rem;
   }
 
   footer {
-   clear: left;
+   clear: both;
+   font-size: .8rem;
  }
-
-
 
 /* ==========================================================================
    Helper classes
