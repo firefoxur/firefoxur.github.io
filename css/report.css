@@ -184,17 +184,22 @@ color: rgba(21, 85, 136, .5);
     padding: 0;
   }
 
+  ul {
+    margin-top: 0;
+  }
+
   li {
    list-style: none;
  }
 
  .bullets li {
     margin: 0 0 0 1rem;
-    list-style: circle;
+    list-style: square;
  }
 
  .second_bullets li {
     margin: 0 0 0 1.5rem;
+    list-style: circle;
  }
 /** ----------------------------------------------------
   L A Y O U T
@@ -235,7 +240,11 @@ color: rgba(21, 85, 136, .5);
   .bios {
     width: 25%;
     float: left;
-    margin: 2rem 0 2rem 8rem;
+    margin: 1rem 0 1rem 8rem;
+  }
+
+  .bios p {
+    margin-left: 0;
   }
 
   .bios:last-of-type {
@@ -343,7 +352,7 @@ h6 {
   font-style: italic;
   font-size: 1rem;
 /*  color: #1F6798;*/
-  margin-top: .5rem;
+  margin-top: 1rem;
 }
 
 
@@ -351,26 +360,36 @@ h6 {
    S I D E B A R
    ------------------------------------------------------- */
 
-  input:last-of-type {
-    margin-bottom: 1rem;
-  }
-
 
 /* ----------------------------------------------------
    M A I N   C O N T E N T
    ------------------------------------------------------- */
 
+   .image_cluster img {
+width: 45%;
+float: left;
+margin-bottom: .5rem;
+}
+
+.image_cluster img:last-of-type {
+  margin-left: .5rem;
+}
+
 
    .title {
-    border: .1rem solid #888;
+/*    border: .1rem solid #888;*/
     width: 82.5%;
     margin-left: 3rem;
     margin-bottom: 1rem;
-    margin-top: -2.5rem;
+    margin-top: -3.25rem;
     padding-bottom: .3rem;
   }
 
-
+/*.image_cluster {
+  width: 82.5%;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+}*/
   article {
     width: 82.5%;
     margin-left: 3rem;
@@ -382,7 +401,7 @@ h6 {
  }
 
  #back {
-  margin-bottom: 1rem;
+  margin: 2rem 0 1rem 0;
   width: 15%;
  }
 
@@ -395,8 +414,13 @@ h6 {
  font-weight: 600;
 }
 
- article p, #researchers p {
+ article p {
   font-size: .9rem;
+}
+
+#researchers p {
+  font-size: .9rem;
+  margin-left: .5rem;
 }
 
 

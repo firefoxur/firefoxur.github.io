@@ -207,7 +207,7 @@ L A Y O U T
 
   #projects  {
     width: 70%;
-    margin-top: .2em;
+    margin-top: -.5em;
     float: left;
   }
 
@@ -327,17 +327,30 @@ h6 a, h6 a:visited, h6 a:hover {
     margin-bottom: 1rem;
   }
 
+
+
+/*  input[type="checkbox"] {
+    display:none;
+}*/
+
 /* ----------------------------------------------------
    M A I N   C O N T E N T
    ------------------------------------------------------- */
 
    .projects_header {
-    border: .1rem solid #888;
+    /*border: .1rem solid #888;*/
     width: 82.5%;
     margin-left: 3rem;
     margin-bottom: 1rem;
-    padding-bottom: .3rem;
+    padding-bottom: -3rem;
+    /*border-bottom: .2rem solid rgba(21, 85, 136, .75);*/
   }
+
+/*  span {
+    color: rgba(21, 85, 136, .75);
+    background-color: rgba(227, 231, 234, .2);
+    letter-spacing: .025rem;
+  }*/
 
   .projects {
     width: 90%;
@@ -349,6 +362,8 @@ h6 a, h6 a:visited, h6 a:hover {
     padding: .5rem;
     margin-left: 3.2rem;
     margin-bottom: 1rem;
+    border-left: .2rem solid rgba(21, 85, 136, .75);
+
   }
 
   div .project_item a:hover {
