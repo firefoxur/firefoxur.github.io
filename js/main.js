@@ -1,12 +1,7 @@
-// P A G I N A T I O N
-// On index.html load, display 5 most recent project_items
-// $(document).ready(function () {
-	
-// Display pagination for remaining project_items
-
-// When checkbox is clicked, display 5 most recent matching project_items
-
-// Display pagination for remaining project_items
+// H A M B U R G E R
+$('.hamburger').on('click', function () {
+	$('#menu').toggleClass ('open');
+});
 
 
 //F I L T E R I N G
