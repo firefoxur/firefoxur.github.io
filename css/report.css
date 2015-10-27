@@ -381,8 +381,8 @@ margin-bottom: .5rem;
     width: 82.5%;
     margin-left: 3rem;
     margin-bottom: 1rem;
-    margin-top: -3.25rem;
-    padding-bottom: .3rem;
+/*    margin-top: -3.25rem;*/
+    padding-bottom: -3rem;
   }
 
 /*.image_cluster {
@@ -400,7 +400,7 @@ margin-bottom: .5rem;
    color: rgba(21, 85, 136, .5);
  }
 
- #back {
+/* #back {
   margin: 2rem 0 1rem 0;
   width: 15%;
  }
@@ -412,7 +412,7 @@ margin-bottom: .5rem;
 
 #back a:hover {
  font-weight: 600;
-}
+}*/
 
  article p {
   font-size: .9rem;
