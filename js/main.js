@@ -61,7 +61,6 @@ $('#reset').on('click', function () {
 })
 
 
-
 //C U R R E N T - P A G E
 
 var i = document.location.href.lastIndexOf("/");

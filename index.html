@@ -8,10 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- fonts -->
+
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Hind:500,600' rel='stylesheet' type='text/css'>
-    <!-- Place favicon.ico in the root directory -->
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
@@ -19,11 +18,7 @@
     <link href="https://mozorg.cdn.mozilla.net/media/css/tabzilla-min.css" rel="stylesheet" />
   </head>
   <body>
-          <!--[if lt IE 8]>
-              <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-              <![endif]-->
-
-              <!-- Add your site or application content here -->
+  
               <div id="main">
                 <header>
                   <nav>
@@ -37,187 +32,129 @@
                  </nav>
                </header>
 
+               <div id="wrapper" class="clearfix">
 
-          <!--        <div class="clearfix featured_content">
-                  <div class="clearfix blurb">
-        <h3 id="feature_callout">Featured Content</h3>
-        <p>Have a great idea for a product, but need help making it a reality? We’re here to help. Startup Matchmaker is the best place for designers and developers to find each other.</p>
-             </div>
-           </div> -->
-
-           <div id="wrapper" class="clearfix">
-
-             <aside id="sidebar">
+                 <aside id="sidebar">
 
 
-              <div class="category">
-                <h3 class="sidebar_title">Products</h3>
-              </div>
-              <form>
-                <input type="checkbox" value="desktop"> Firefox Desktop
-                <br>
-                <input type="checkbox" value="ios"> Firefox iOS
-                <br>
-                <input type="checkbox" value="android"> Firefox Android
-              </form>
+                  <div class="category">
+                    <h3 class="sidebar_title">Products</h3>
+                  </div>
+                  <form>
+                    <input type="checkbox" value="desktop"> Firefox Desktop
+                    <br>
+                    <input type="checkbox" value="ios"> Firefox iOS
+                    <br>
+                    <input type="checkbox" value="android"> Firefox Android
+                  </form>
 
-              <div class="category">
-                <h3 class="sidebar_title">Topics</h3>
-              </div>
+                  <div class="category">
+                    <h3 class="sidebar_title">Topics</h3>
+                  </div>
 
-              <form>
-                <input type="checkbox" value="pbm"> Private Browsing
-                <br>
-                <input type="checkbox" value="task-continuity"> Task Continuity
-                <br>
-                <input type="checkbox" value="ia"> Information Architecture
-                <br>
-                <input type="checkbox" value="competitive"> Competitive Review
-              </form>
+                  <form>
+                    <input type="checkbox" value="pbm"> Private Browsing
+                    <br>
+                    <input type="checkbox" value="task-continuity"> Task Continuity
+                    <br>
+                    <input type="checkbox" value="ia"> Information Architecture
+                    <br>
+                    <input type="checkbox" value="competitive"> Competitive Review
+                  </form>
 
 
-            <div class="category">
-              <h3 class="sidebar_title">Location</h3>
-            </div>
-            
-            <form>
-              <input type="checkbox" value="us"> United States
-              <br>
-              <input type="checkbox" value="japan"> Japan
-              <br>
-              <input type="checkbox" value="taiwan"> Taiwan
-              <br>
-              <input type="checkbox"  value="usertesting"> UserTesting.com
-              <input type="button" id="reset" value="Clear">
-              </form>
+                  <div class="category">
+                    <h3 class="sidebar_title">Location</h3>
+                  </div>
 
-            </aside>
+                  <form>
+                    <input type="checkbox" value="us"> United States
+                    <br>
+                    <input type="checkbox" value="japan"> Japan
+                    <br>
+                    <input type="checkbox" value="taiwan"> Taiwan
+                    <br>
+                    <input type="checkbox"  value="usertesting"> UserTesting.com
+                    <input type="button" id="reset" value="Clear">
+                  </form>
 
-            <div id="projects" class="clearfix">
+                </aside>
 
-              <div class="projects_header">
-                <h3>Publications By Date <!-- <span>//////////////////////////</span> --></h3>
-              </div>
+                <div id="projects" class="clearfix">
 
-              <div class="project_item" data-tag="android ia usertesting">
-                <article class="clearfix">
-              <!--  <div class="tag_group">
-                <ul class="related_tags">
-                  <li>Firefox Android</li>
-                  <li>Info Architecture</li>
-                  <li>UserTesting.com</li>
-                </ul>
-              </div> -->
-              <!--        <div class="entry" -->
-              <h4>October 2015</h4>
-              <h5>Android Browser Settings Research Report</h5>
-              <p>Firefox for Android settings menu card sorting research. Final report and recommendations.</p> <h6><a href="report_template.html">Read more &raquo;</a></h6> 
-            </article>
-          </div>
+                  <div class="title">
+                    <h3>Publications By Date</h3>
+                  </div>
 
-          <div class="project_item" data-tag="android ia competitive">
-            <article class="clearfix">
-              <h4>August 2015</h4>
-              <h5>Android Settings Menu Competitive Review</h5>
-              <p>Competitive review report of popular Android browser settings menus. Includes recommendations for Firefox for Android.</p>  <h6><a href="report_template.html">Read more &raquo;</a></h6>
-                <!--   <ul class="related_tags">
-                    <li>Firefox Android</li>
-                    <li>Info Architecture</li>
-                    <li>Competitive Review</li>
-                  </ul> -->
-                </article>
-              </div>
+                  <div class="project_item" data-tag="android ia usertesting">
+                    <article class="clearfix">
 
-              <div class="project_item" data-tag="desktop pbm us">
-                <article class="clearfix">
-                  <h4>July 2015</h4>
-                  <h5>Android Private Browsing Mode Research</h5>
-                  <p>Firefox for Android Nightly user reseach on private browsing mode for external links.</p> <h6><a href="report_template.html">Read more &raquo;</a></h6>
-                    <!-- <ul class="related_tags">
-                     <li>Firefox Desktop</li>
-                     <li>Private Browsing</li>
-                     <li>United States</li>
-                   </ul> -->
-                 </article>
-               </div>
+                      <h4>October 2015</h4>
+                      <h5>Android Browser Settings Research Report</h5>
+                      <p>Firefox for Android settings menu card sorting research. Final report and recommendations.</p> <h6><a href="report_template.html">Read more &raquo;</a></h6> 
+                    </article>
+                  </div>
 
-               <div class="project_item" data-tag="android desktop ios task-continuity japan taiwan">
-                <article class="clearfix">
-                  <h4>June 2015</h4>
-                  <h5>Multi-Device Task Continuity - Asia</h5>
-                  <p>Research multi-device task continuity behaviors in Japan and Taiwan.</p> <h6><a href="asia_task_continuity.html">Read more &raquo;</a></h6>
-                  <!-- <ul class="related_tags">
-                      <li>Firefox Android</li>
-                      <li>Firefox Desktop</li>
-                      <li>Firefox iOS</li>
-                      <li>Task Continuity</li>
-                      <li>Japan</li>
-                      <li>Taiwan</li>
-                    </ul> -->
-                  </article>
-                </div>
+                  <div class="project_item" data-tag="android ia competitive">
+                    <article class="clearfix">
+                      <h4>August 2015</h4>
+                      <h5>Android Settings Menu Competitive Review</h5>
+                      <p>Competitive review report of popular Android browser settings menus. Includes recommendations for Firefox for Android.</p>  <h6><a href="report_template.html">Read more &raquo;</a></h6>
+                    </article>
+                  </div>
 
-                <div class="project_item" data-tag="android desktop ios task-continuity us">
-                  <article class="clearfix">
-                    <h4>March 2015</h4>
-                    <h5>Multi-Device Task Continuity - United States</h5>
-                    <p>Research multi-device task continuity behaviors in the United States. </p> 
+                  <div class="project_item" data-tag="desktop pbm us">
+                    <article class="clearfix">
+                      <h4>July 2015</h4>
+                      <h5>Android Private Browsing Mode Research</h5>
+                      <p>Firefox for Android Nightly user reseach on private browsing mode for external links.</p> <h6><a href="report_template.html">Read more &raquo;</a></h6>
+                    </article>
+                  </div>
 
-                    <h6><a href="report_template.html">Read more &raquo;</a></h6>
-                      <!-- <ul class="related_tags">
-                        <li>Firefox Android</li>
-                        <li>Firefox Desktop</li>
-                        <li>Firefox iOS</li>
-                        <li>Task Continuity</li>
-                        <li>United States</li>
-                      </ul> -->
+                  <div class="project_item" data-tag="android desktop ios task-continuity japan taiwan">
+                    <article class="clearfix">
+                      <h4>June 2015</h4>
+                      <h5>Multi-Device Task Continuity - Asia</h5>
+                      <p>Research multi-device task continuity behaviors in Japan and Taiwan.</p> <h6><a href="asia_task_continuity.html">Read more &raquo;</a></h6>
+                    </article>
+                  </div>
+
+                  <div class="project_item" data-tag="android desktop ios task-continuity us">
+                    <article class="clearfix">
+                      <h4>March 2015</h4>
+                      <h5>Multi-Device Task Continuity - United States</h5>
+                      <p>Research multi-device task continuity behaviors in the United States. </p> 
+
+                      <h6><a href="report_template.html">Read more &raquo;</a></h6>
                     </article>
                   </div>
                 </div>
 
+                <footer class="clearfix">
+                 <hr>
+                 <div>   <p>&copy; 2015 Gemma Petrie | Mozilla</p>
+                 </div>
+               </footer>
 
-           <!--      <div class="pagination">      
-    <ul class="pagination clearfix">
-      <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
-      <li class="active"><a href="#!">1</a></li>
-      <li><a href="#!">2</a></li>
-      <li><a href="#!">3</a></li>
-      <li><a href="#!">4</a></li>
-      <li><a href="#!">5</a></li>
-      <li><a href="#!"><i class="material-icons">chevron_right</i></a></li>
-    </ul>
-  </div> -->
+             </div>
+           </div>
 
 
-  <footer class="clearfix">
-   <hr>
-   <div>   <p>&copy; 2015 Gemma Petrie | Mozilla</p>
-   </div>
- </footer>
+           <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+           <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+           <script src="js/plugins.js"></script>
+           <script src="js/main.js"></script>
+           <script src="js/parsley.js"></script>
 
-
-
-</div>
-</div>
-
-
-
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
-<script src="js/parsley.js"></script>
-
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-<script>
-  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-  e.src='//www.google-analytics.com/analytics.js';
-  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-  ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-</script>
-<script src="https://mozorg.cdn.mozilla.net/tabzilla/tabzilla.js"></script>
-</body>
-</html>
+           <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+           <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+              function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+          </script>
+          <script src="https://mozorg.cdn.mozilla.net/tabzilla/tabzilla.js"></script>
+        </body>
+        </html>
