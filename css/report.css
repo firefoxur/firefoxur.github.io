@@ -420,7 +420,34 @@ margin-bottom: .5rem;
 
 #researchers p {
   font-size: .9rem;
-  margin-left: .5rem;
+}
+
+/* ----------------------------------------------------
+    B U T T O N
+    ------------------------------------------------------- */
+.button,
+.button:visited {
+display: block;
+float: right;
+padding: .2rem;
+/*margin-right: -3.5rem;*/
+margin-top: 1rem;
+text-align: center;
+letter-spacing: .005rem;
+text-transform: uppercase;
+color: #fff;
+font-size: .8rem;
+font-weight: 600;
+border-radius: .25rem;
+ background-color: #1F6798;
+ box-shadow: inset 0 -.15rem 0 rgba(21, 85, 136, .75);
+ width: 16%;
+}
+
+.button:hover {
+  background-color: rgba(21, 85, 136, .75);
+  color: #fff;
+  font-weight: 600;
 }
 
 

@@ -386,6 +386,10 @@ h6 a, h6 a:visited, h6 a:hover {
 /* ----------------------------------------------------
    F O O T E R
    ------------------------------------------------------- */
+  .pagination div {
+display: inline;
+float: left;
+  }
 
    footer div {
     width: 30%;

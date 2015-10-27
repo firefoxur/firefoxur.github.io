@@ -1,63 +1,72 @@
-// F I L T E R I N G
+// P A G I N A T I O N
+// On index.html load, display 5 most recent project_items
+// $(document).ready(function () {
+	
+// Display pagination for remaining project_items
+
+// When checkbox is clicked, display 5 most recent matching project_items
+
+// Display pagination for remaining project_items
+
+
+//F I L T E R I N G
 
 var $results=$('.project_item'),
 $checks=$(':checkbox');
 
-$checks.change(function(){
+$checks.on('change', filterItems);
+
+function filterItems () {
 	var $checked=$checks.filter(':checked');
 	/* show all when nothing checked*/
 	if(!$checked.length){
 		$results.show();
 		return; /* quit here if nothing checked */
-	}
-	/* create array of checked values */
-	var checkedVals= $.map($checked, function(el){
-		return el.value
-	});
-	/* hide all results, then filter for matches */
-	var showResults = $results.hide().filter(function(){
-		/* split categories for this result into an array*/
-		var tagData = $(this).data('tag');
+	} else {
+		/* create array of checked values */
+		var checkedVals= $.map($checked, function(el){
+			return el.value
+		});
 
-		if (tagData) {
-			var tagArray = tagData && tagData.split(' ')
-		} else {
-			return
+		/* hide all results, then filter for matches */
+		var showResults = $results.hide().filter(function(){
+			/* split categories for this result into an array*/
+			var tagData = $(this).data('tag');
+
+			if (tagData) {
+				var tagArray = tagData && tagData.split(' ')
+			} else {
+				return
+			}
+
+	        // var tags = $(this).data('tag').split(' ');
+	        /* filter the checkedVals array to only values that match */
+	        var checkMatches=checkedVals.filter(function(checkedValue){              
+	        	return $.inArray(checkedValue, tagArray) !== -1;
+	        });
+	        /* only return elements with matched array and original array being same length */             
+	        return checkMatches.length === checkedVals.length;
+	        /* show results that match all the checked checkboxes */            
+	    })
+
+		showResults.show();
+		/* do something when there aren't any matches */
+		if(!showResults.length){
+			alert('Sorry, no matching reports.');
 		}
-
-        // var tags = $(this).data('tag').split(' ');
-        /* filter the checkedVals array to only values that match */
-        var checkMatches=checkedVals.filter(function(checkedValue){              
-        	return $.inArray(checkedValue, tagArray) !== -1;
-        });
-        /* only return elements with matched array and original array being same length */             
-        return checkMatches.length;
-        /* show results that match all the checked checkboxes */            
-    })
-
-	showResults.show();
-	/* do something when there aren't any matches */
-	if(!$results.length){
-		alert('Ooops...no matches');
 	}
-});
+}
 
 
-// C U R R E N T - P A G E
-// $(document).ready(function() {
-//     $(".nav_highlight li").on("click", function() {
-//         $(".nav_highlight li").removeClass("active");
-//         $(this).addClass("active");
-//     });
-// });
+// R E S E T - F I L T E R S
+$('#reset').on('click', function () {
+    $("input[type='checkbox']").removeAttr('checked');
+    filterItems();
+})
 
 
-// var url = window.location.href;
-//         $('.nav_highlight a').filter(function() {
-//     return this.href == url;
-// }).addClass('active');
-//     });
 
+//C U R R E N T - P A G E
 
 var i = document.location.href.lastIndexOf("/");
 var current = document.location.href.substr(i+1);
