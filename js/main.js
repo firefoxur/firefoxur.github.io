@@ -17,6 +17,7 @@ $checks=$(':checkbox');
 $checks.on('change', filterItems);
 
 function filterItems () {
+	$('#sorry').remove()
 	var $checked=$checks.filter(':checked');
 	/* show all when nothing checked*/
 	if(!$checked.length){
@@ -52,11 +53,11 @@ function filterItems () {
 		showResults.show();
 		/* do something when there aren't any matches */
 		if(!showResults.length){
-			alert('Sorry, no matching reports.');
+			// alert('Sorry, no matching reports.');
+			$('<p id="sorry">Sorry, no matching reports.</p>').appendTo('#projects');
 		}
 	}
 }
-
 
 // R E S E T - F I L T E R S
 $('#reset').on('click', function () {
