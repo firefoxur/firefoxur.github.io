@@ -215,11 +215,16 @@ li {
 
   #sidebar  {
     width: 20%;
-    margin-top: .2em;
-    margin-bottom: .2rem;
+ /*   margin-top: .2em;
+    margin-bottom: .2rem;*/
+    margin: .2rem;
     float: left;
     font-size: .9rem;
     border: .1rem solid #888;
+  }
+
+  .category {
+    width: 80%;
   }
 
 
