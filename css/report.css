@@ -199,6 +199,10 @@ li {
     border: .1rem solid #888;
   }
 
+  .altSidebar {
+    display: none;
+  }
+
   #report, #researchers  {
    width: 70%;
    margin-top: -.5rem;
@@ -333,7 +337,7 @@ li {
   }
 
   h5 {
-    margin: .5rem;
+    margin: .5rem 0 .5rem 0;
     font-size: 1.2rem;
     font-weight: 600;
   }
@@ -375,9 +379,9 @@ li {
     font-size: .9rem;
   }
 
-  #researchers p {
+/*  #researchers p {
     font-size: .9rem;
-  }
+  }*/
 
 /* ----------------------------------------------------
     B U T T O N
@@ -397,7 +401,7 @@ li {
       border-radius: .25rem;
       background-color: #1F6798;
       box-shadow: inset 0 -.15rem 0 rgba(21, 85, 136, .75);
-      width: 16%;
+      width: 35%;
     }
 
     .button:hover {
@@ -635,7 +639,11 @@ li {
      height: 80px;
    }
 
-   #sidebar  {
+   #wrapper {
+    padding: 0;
+   }
+
+  /* #sidebar  {
     width: 100%;
     margin: .2rem .2rem 2rem .2rem;
     float: left;
@@ -644,10 +652,27 @@ li {
 
   .category {
     font-size: .9rem;
+  }*/
+
+  #sidebar {
+    display: none;
   }
 
-  #report {
+  .altSidebar {
+    display: inline;
+  }
+
+  .bios {
+    width: 40%;
+    margin-left: 4rem;
+  }
+
+  #report, #researchers {
     width: 100%;
+  }
+
+  h4 {
+    margin-left: 3.2rem;
   }
 
   footer div {
