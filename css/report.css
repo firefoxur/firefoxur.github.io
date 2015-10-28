@@ -140,7 +140,7 @@
    background-color: #fff;
    line-height: 1.5;
    margin: 0;
-   padding: 0 3rem;
+   padding: 0;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
  }
@@ -188,6 +188,7 @@ li {
     width: 100%;
     float: left;
     margin: 0 auto;
+    max-width: 1400px;
   }
 
   #wrapper {
@@ -204,7 +205,7 @@ li {
 
   #report, #researchers  {
    width: 70%;
-   margin-top: -.5em;
+   margin-top: -.5rem;
    float: left;
  }
 
@@ -265,7 +266,7 @@ li {
    line-height: 1;
    float: left;
    color: #fff;
-   margin: 0.4em 1.25rem;
+   margin: 0.4rem 1.25rem;
    width: 45%;
    position: absolute;
  }

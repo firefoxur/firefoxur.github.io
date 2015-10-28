@@ -1,8 +1,7 @@
 // H A M B U R G E R
 $('.hamburger').on('click', function () {
-	$('#menu').toggleClass ('open');
+	$('#nav_highlight').toggleClass ('open');
 });
-
 
 //F I L T E R I N G
 
@@ -60,6 +59,13 @@ $('#reset').on('click', function () {
     filterItems();
 })
 
+
+//T O G G L E - F I L T E R - M E N U
+$(document).ready(function(){
+    $("#toggleFilters").click(function(){
+        $("aside").toggle();
+    });
+});
 
 //C U R R E N T - P A G E
 
