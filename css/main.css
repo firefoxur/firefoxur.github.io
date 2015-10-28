@@ -242,7 +242,7 @@ nav a {
     text-align: right;
   }
 
-.nav_highlight li a:hover {
+.nav_highlight a:hover {
     color: #fff;
     border-bottom: .2rem solid #fff;
   }
@@ -253,7 +253,7 @@ nav a {
 
   .fa {
     color: #fff;
-    margin-right: 30rem;
+    margin-right: 10rem;
   }
 
 /* ----------------------------------------------------
@@ -696,10 +696,6 @@ h6 a, h6 a:visited, h6 a:hover {
       font-size: 14px;
     }
 
-    nav {
-      height: 75px;
-    }
-
     #sidebar {
       display: none;
     }
@@ -733,13 +729,7 @@ h6 a, h6 a:visited, h6 a:hover {
       html {
       font-size: 11.9px;
     }
-
-/*h2 {
-  font-size: 13px;
-}*/
-    nav {
-      height: 75px;
-    }
+    
 
    #toggleFilters {
     width: 100%;
