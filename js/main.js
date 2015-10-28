@@ -65,7 +65,6 @@ $('#reset').on('click', function () {
 $(document).ready(function(){
     $("#toggleFilters").click(function(){
         $("aside").toggle();
-        e.preventDefault();
     });
 });
 

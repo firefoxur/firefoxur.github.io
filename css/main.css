@@ -708,6 +708,7 @@ h6 a, h6 a:visited, h6 a:hover {
   }
 
   #sidebar  {
+    display: none;
     width: 100%;
     margin: .2rem .2rem 2rem .2rem;
     float: left;
@@ -749,6 +750,11 @@ h6 a, h6 a:visited, h6 a:hover {
   html {
     font-size: 12px;
   }
+
+ /* header {
+    display: block;
+    float: none;
+  }*/
 }
 
 /*T E E N Y*/
