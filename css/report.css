@@ -486,9 +486,9 @@ h6 {
    Modify as content requires.
    ========================================================================== */
 
-   @media only screen and (min-width: 35em) {
+/*   @media only screen and (min-width: 35em) {*/
     /* Style adjustments for viewports that meet the condition */
-  }
+/*  }*/
 
   @media print,
   (-o-min-device-pixel-ratio: 5/4),
@@ -578,48 +578,71 @@ h6 {
 /* ----------------------------------------------------
    O V E R W R I T E
    ------------------------------------------------------- */
-   /*Tablet*/
-/*   @media only screen and (max-width: 760px) {
-    .gallery div {
-      width: 49%;
-      margin-right: 2%;
-      margin-left: 0;
+   
+   /*T A B L E T*/
+
+   @media only screen and (max-width: 900px) {
+
+    #main {
+      width: 100%;
     }
 
-    .gallery div:nth-child(even) {
-     margin-right: 0;
-   }
+    html {
+      font-size: 16px;
+    }
 
-   /*navigation*/
- /* nav li {
-   display: none;
+    h1 {
+      width: 100%;
+    }
+
+    h2 {
+      margin-top: .5rem;
+    }
+
+    #sidebar  {
+      width: 100%;
+      margin: .2rem .2rem 2rem .2rem;
+      float: left;
+      border: .1rem solid #888;
+    }
+
+    .category {
+      font-size: .9rem;
+    }
+
+      #report {
+        width: 100%;
+      }
+
+      footer div {
+        width: 100%;
+      }
+
+    }
+
+
+    /*S M A R T P H O N E*/
+    @media only screen and (max-width: 660px) {
+    
+    html {
+      font-size: 14px;
+    }
+
+    nav {
+      height: 75px;
+    }
+
+  }
+
+  /*Smaller Smartphones*/
+    @media only screen and (max-width: 440px) {
+
+      html {
+      font-size: 11.9px;
+    }
+
+    nav {
+      height: 75px;
+    }
+
  }
-
- nav li:last-child {
-  display: block;
-}
-}*/
-
-
-/*Smartphone*/
-/* @media only screen and (max-width: 480px) {
-  .gallery div {
-    width: 100%;
-    margin: 10px 0;
-    }*/
-    /*navigation*/
- /* nav li {
-   display: none;
- }
-
- nav li:last-child {
-  display: block;
-  }*/
-
-  /*main and footers*/
-/*footer > div {
-  width: 97%; /*100%-3% margins*/
-/*}
-}
-
-*/
