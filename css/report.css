@@ -248,8 +248,8 @@ li {
   }
 
   nav a {
-  display: inline-block;
-   margin: 1rem .75rem 0 .75rem;
+    display: inline-block;
+    margin: 1rem .75rem 0 .75rem;
   }
 
   .hamburger {
@@ -276,6 +276,7 @@ li {
     color: #fff;
     margin-right: 11rem;
   }
+
 /* ----------------------------------------------------
    H E A D I N G S
    ------------------------------------------------------- */
@@ -291,7 +292,7 @@ li {
     line-height: 1;
     float: left;
     color: #fff;
-   margin: 0.4rem 0 .4rem 1.25rem;
+    margin: 0.4rem 0 .4rem 1.25rem;
   }
 
   h1 a, h1 a:visited {
@@ -372,10 +373,6 @@ li {
   article p {
     font-size: .9rem;
   }
-
-/*  #researchers p {
-    font-size: .9rem;
-  }*/
 
 /* ----------------------------------------------------
     B U T T O N
@@ -635,7 +632,7 @@ li {
 
    #wrapper {
     padding: 0;
-   }
+  }
 
   #sidebar {
     display: none;
@@ -686,7 +683,7 @@ li {
     font-size: 13px;
   }
 
-   h1 {
+  h1 {
     font-size: 19px;
     margin: 1rem .25rem 1rem 1rem;
   }
@@ -699,11 +696,10 @@ li {
   html {
     font-size: 13px;
   }
-}
 
-   h1 {
-    font-size: 13px;
-    margin: 1rem .25rem 1rem 1rem;
-  }
+h1 {
+  font-size: 13px;
+  margin: 1rem .25rem 1rem 1rem;
+}
 
 }

@@ -228,8 +228,8 @@ L A Y O U T
   }
 
   nav a {
-  display: inline-block;
-   margin: 1rem .75rem 0 .75rem;
+    display: inline-block;
+    margin: 1rem .75rem 0 .75rem;
   }
 
   .hamburger {
@@ -256,7 +256,7 @@ L A Y O U T
     color: #fff;
     margin-right: 11rem;
   }
- 
+  
 /* ----------------------------------------------------
    H E A D I N G S
    ------------------------------------------------------- */
@@ -727,10 +727,10 @@ h6 a, h6 a:visited, h6 a:hover {
   h1 {
     margin-top: .4em;
 
-}
+  }
 
-/*M I N I */
-@media only screen and (max-width: 500px) {
+  /*M I N I */
+  @media only screen and (max-width: 500px) {
 
    html {
     font-size: 13px;
