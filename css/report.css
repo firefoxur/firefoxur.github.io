@@ -291,7 +291,7 @@ li {
     line-height: 1;
     float: left;
     color: #fff;
-    margin: 0.4rem 1.25rem;
+   margin: 0.4rem 0 .4rem 1.25rem;
   }
 
   h1 a, h1 a:visited {
@@ -360,14 +360,8 @@ li {
     padding-bottom: -3rem;
   }
 
-  .image_cluster img {
-    width: 45%;
-    float: left;
-    margin-bottom: .5rem;
-  }
-
-  .image_cluster img:last-of-type {
-    margin-left: .5rem;
+  .hero img {
+    width: 100%;
   }
 
   article {
