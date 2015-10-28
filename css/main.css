@@ -751,10 +751,6 @@ h6 a, h6 a:visited, h6 a:hover {
     font-size: 12px;
   }
 
- /* header {
-    display: block;
-    float: none;
-  }*/
 }
 
 /*T E E N Y*/
@@ -762,6 +758,15 @@ h6 a, h6 a:visited, h6 a:hover {
 
   html {
     font-size: 11px;
+  }
+
+  h1 {
+    font-size: 21px;
+  }
+
+  .fa {
+     margin-bottom: 10px;
+     margin-right: 12rem;
   }
 
 }
