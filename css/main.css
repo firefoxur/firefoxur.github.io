@@ -772,3 +772,22 @@ h6 a, h6 a:visited, h6 a:hover {
 
 }
 
+/*B I T T Y*/
+@media only screen and (max-width: 350px) {
+
+  html {
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 15px;
+    margin-top: 1.5rem;
+  }
+
+  .fa {
+     margin-bottom: 10px;
+     margin-right: 13rem;
+  }
+
+}
+
