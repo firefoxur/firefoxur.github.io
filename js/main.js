@@ -1,7 +1,8 @@
 // H A M B U R G E R
 $('.hamburger').on('click', function () {
-	$('.nav_highlight').toggleClass ('open');
+	$('#menu').toggleClass ('open');
 });
+
 
 //F I L T E R I N G
 
