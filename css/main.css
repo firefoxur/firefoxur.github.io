@@ -228,8 +228,8 @@ L A Y O U T
   }
 
   nav a {
-    display: block;
-    padding: 1rem .75rem 0 .75rem;
+  display: inline-block;
+   margin: 1rem .75rem 0 .75rem;
   }
 
   .hamburger {
@@ -256,7 +256,7 @@ L A Y O U T
     color: #fff;
     margin-right: 11rem;
   }
-
+ 
 /* ----------------------------------------------------
    H E A D I N G S
    ------------------------------------------------------- */

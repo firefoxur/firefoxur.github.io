@@ -248,8 +248,8 @@ li {
   }
 
   nav a {
-    display: block;
-    padding: 1rem .75rem 0 .75rem;
+  display: inline-block;
+   margin: 1rem .75rem 0 .75rem;
   }
 
   .hamburger {
