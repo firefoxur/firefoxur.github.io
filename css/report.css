@@ -193,6 +193,7 @@ li {
 
   #wrapper {
     margin-top: 1rem;
+     padding: 0 3rem;
   }
 
   #sidebar  {
@@ -229,16 +230,16 @@ li {
 
    nav {
     background-color: #1F6798;
-    height: 4.5rem;
+    height: 100px;
     margin-bottom: .5rem;
+    position: relative;
   }
 
   header nav ul li {
     color: #fff;
-    float: right;
+    float: left;
     margin-top: .3rem;
-    padding-left: .5rem;
-    width: 12.5%;
+    padding-left: 1rem;
     text-transform: uppercase;
   }
 
@@ -261,7 +262,7 @@ li {
 
   h1 {
    font-family: "MetaPro-Medium", sans-serif;
-   font-size: 2.5rem;
+   font-size: 2rem;
    font-weight: 500;
    line-height: 1;
    float: left;
@@ -269,6 +270,8 @@ li {
    margin: 0.4rem 1.25rem;
    width: 45%;
    position: absolute;
+   top: 50%;
+   transform: translate(0, -125%);
  }
 
  h1 a, h1 a:visited {
@@ -281,7 +284,7 @@ h1 a:hover {
 }
 
 h2 {
-  font-size: .90rem;
+  font-size: .75rem;
   font-weight: 600;
   color: #fff;
   margin: 0;

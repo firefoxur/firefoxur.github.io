@@ -224,7 +224,6 @@ L A Y O U T
   }
 
   .nav_highlight {
-    /*margin-left: 38rem;*/
     text-align: right;
   }
 
@@ -665,10 +664,6 @@ h6 a, h6 a:visited, h6 a:hover {
       height: 75px;
     }
 
-     h2 {
-      margin-top: .25rem;
-    }
-
     #sidebar {
       display: none;
     }
@@ -696,17 +691,21 @@ h6 a, h6 a:visited, h6 a:hover {
 
   }
 
-
   /*Smaller Smartphones*/
     @media only screen and (max-width: 440px) {
-   
+
+      html {
+      font-size: 13px;
+    }
+
+    nav {
+      height: 70px;
+    }
+
    #toggleFilters {
     width: 100%;
    }
 
-  html {
-    font-size: 13px;
-  }
 
  }
 
