@@ -219,6 +219,10 @@ li {
   margin-left: 0;
 }
 
+/*.bios:last-of-type {
+  margin-left: 5rem;
+}*/
+
 /* ----------------------------------------------------
    N A V I G A T I O N
    ------------------------------------------------------- */
@@ -703,7 +707,7 @@ li {
 
   .fa {
      margin-bottom: 10px;
-     margin-right: 13rem;
+     margin-right: 12rem;
   }
 
 }
