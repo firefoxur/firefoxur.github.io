@@ -207,27 +207,25 @@ L A Y O U T
    N A V I G A T I O N
    ------------------------------------------------------- */
 
-/*   .hamburger {
-    display: none;
-    float: right;
-    margin-right: 30rem;
-    cursor: pointer;
-  }*/
 
   nav {
     background-color: #1F6798;
-    height: 80px;
+    height: 100px;
     margin-bottom: .5rem;
     position: relative;
   }
 
   header nav ul li {
     color: #fff;
-    float: right;
-    margin-top: .3rem;
-    padding-left: .5rem;
-    width: 12.5%;
+    float: left;
+    margin-top: 3rem;
+    padding-left: 1rem;
     text-transform: uppercase;
+  }
+
+  .nav_highlight {
+    /*margin-left: 38rem;*/
+    text-align: right;
   }
 
   .nav_highlight a:hover {
@@ -258,7 +256,7 @@ L A Y O U T
    width: 45%;
    position: absolute;
    top: 50%;
-   transform: translate(0, -50%);
+   transform: translate(0, -125%);
  }
 
  h1 a, h1 a:visited {
@@ -388,7 +386,7 @@ h6 a, h6 a:visited, h6 a:hover {
     #toggleFilters,
     #toggleFilters:visited {
       margin: 1rem 0 .5rem 0;
-      text-align: left;
+      text-align: center;
       letter-spacing: .005rem;
       text-transform: uppercase;
       color: #fff;
@@ -593,7 +591,8 @@ h6 a, h6 a:visited, h6 a:hover {
    O V E R W R I T E
    ------------------------------------------------------- */
 
-   /*Large*/
+   /*T A B L E T*/
+
    @media only screen and (max-width: 900px) {
 
     #main {
@@ -601,7 +600,15 @@ h6 a, h6 a:visited, h6 a:hover {
     }
 
     html {
-      font-size: 15px;
+      font-size: 16px;
+    }
+
+    h1 {
+      width: 100%;
+    }
+
+    h2 {
+      margin-top: .5rem;
     }
 
     #sidebar  {
@@ -646,21 +653,20 @@ h6 a, h6 a:visited, h6 a:hover {
         width: 100%;
       }
 
-/*Medium*/
-@media only screen and (max-width: 770px) {
-  nav li {
-    display: none;
-  }
 
-    /*Smartphone*/
-    @media only screen and (max-width: 565px) {
-     html {
+    /*S M A R T P H O N E*/
+    @media only screen and (max-width: 660px) {
+    
+    html {
       font-size: 14px;
     }
 
-     h1 {
-      font-size: 1.75rem;
-        width: 100%;
+    nav {
+      height: 75px;
+    }
+
+     h2 {
+      margin-top: .25rem;
     }
 
     #sidebar {
@@ -692,89 +698,15 @@ h6 a, h6 a:visited, h6 a:hover {
 
 
   /*Smaller Smartphones*/
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 440px) {
+   
    #toggleFilters {
     width: 100%;
    }
- }
-/*.category {
-  width: 25%;
-  }*/
 
-  /*  nav li {
-      width: 100%;
-      float: none;
-      clear: both;
-      padding-left: 10px;
-    }
-
-    nav li {
-      display: block;
-      float: none;
-      text-align: left;
-    }
-
-    nav ul {
-      height: 0;
-      overflow: hidden;
-      -webkit-transition: height 350ms ease-in-out;
-      transition: height 350ms ease-in-out;
-    }
-
-    .open {
-     height: 350px;
-   }
-
-   .tagline {
-    display: none;
+  html {
+    font-size: 13px;
   }
 
-  .blurb {
-    text-align: center;
-    float: none;
-    width: 75%;
-    padding: 8%;
-    font-size: 1.5rem;
-  }
-
-  .blurb .button {
-    display: none;
-  }
-
-  .info {
-    float: none;
-    width: 100%;
-    font-size: 1.5rem;
-    border-bottom: 1px solid #dfdfdf;
-  }
-
-  .info h3 {
-    display: none;
-  }
-
-  }
-  */
-
-  /*Smartphone*/
-
- /* .gallery div {
-    width: 100%;
-    margin: 10px 0;
-    }*/
-    
-    /*navigation*/
- /* nav li {
-   display: none;
  }
 
- nav li:last-child {
-  display: block;
-  }*/
-
-  /*main and footers*/
-/*footer > div {
-  width: 97%; /*100%-3% margins*/
-/*}
-}
-
-*/
