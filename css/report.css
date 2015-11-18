@@ -361,6 +361,11 @@ li {
     width: 100%;
   }
 
+    .border img {
+    border: .1rem solid #888;
+    width: 100%;
+  }
+
   article {
     width: 82.5%;
     margin: 0 0 1rem 3rem;
