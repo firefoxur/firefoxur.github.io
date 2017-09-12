@@ -377,8 +377,8 @@ h6 a, h6 a:visited, h6 a:hover {
   font-size: 1.2rem;
   text-align: center;
   vertical-align: middle;
-  margin: 2rem 0 2rem 0;
-  color: #0060df; 
+  margin: 2em 0 2rem 0;
+  color: #0a84ff; 
 }
 
 /* ----------------------------------------------------
@@ -396,7 +396,7 @@ h6 a, h6 a:visited, h6 a:hover {
       font-size: .8rem;
       font-weight: 600;
       border-radius: .25rem;
-      background-color: #0060df;
+      background-color: #0a84ff;
       width: 90%;
     }
 
