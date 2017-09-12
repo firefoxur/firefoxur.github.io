@@ -19,12 +19,12 @@
  */
 
  ::-moz-selection {
-  background: #b3d4fc;
+  background: #f9f9fa;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: #f9f9fa;
   text-shadow: none;
 }
 
