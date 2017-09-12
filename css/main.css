@@ -141,7 +141,7 @@
   body {
     font-family: "SanFranciscoReg", sans-serif;
     color: #0c0c0d;
-    background-color: #f9f9fa;
+    background-color: #fff;
     line-height: 1.5;
     margin: 0;
     padding: 0;
@@ -192,7 +192,7 @@ L A Y O U T
   margin: .2rem;
   float: left;
   font-size: .9rem;
-  border: .1rem solid #888;
+  border: .1rem solid #0c0c0d;
 }
 
 #toggleFilters {
