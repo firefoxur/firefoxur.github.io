@@ -117,14 +117,18 @@
   font-family: 'Open Sans', sans-serif; (300, 300i, 400, 600))*/
 
 @font-face {
-  font-family: MetaPro-Medium;
-  src: url("../fonts/MetaPro-Medium.otf") format("opentype");
+  font-family: SanFranciscoBold;
+  src: url("../fonts/SanFranciscoDisplay-Semibold.otf") format("opentype");
 }
 
 @font-face {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: SanFranciscoReg;
   src: url("../fonts/SanFranciscoDisplay-Regular.otf") format("opentype");
 }
+
+@font-face {
+  font-family: SanFranciscoThinItalic;
+  src: url("../fonts/SanFranciscoText-LightItalic.otf") format("opentype");
 
 /* ----------------------------------------------------
    G L O B A L
@@ -134,7 +138,7 @@
   }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: "SanFranciscoReg", sans-serif;
     color: #494949;
     background-color: #fff;
     line-height: 1.5;
