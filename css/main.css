@@ -313,8 +313,10 @@ h3 {
 }
 
 h4 {
+ font-family: "SanFranciscoLightItalic", sans-serif;
  font-size: .75rem;
  font-weight: 600;
+ color: #737373;
  font-style: italic;
  margin-top: 0;
 }
