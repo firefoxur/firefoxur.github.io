@@ -362,7 +362,7 @@ h6 a, h6 a:visited, h6 a:hover {
     background-color: rgba(227, 231, 234, .2);
     padding: .5rem;
     margin: 0 0 1rem 3.2rem;
-    border-left: .2rem solid rgba(21, 85, 136, .75);
+    border-left: .2rem solid #0a84ff;
   }
 
   div .project_item a:hover {
