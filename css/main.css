@@ -152,6 +152,7 @@
   a {
     -webkit-transition: all 100ms;
     text-decoration: none;
+    color: #0a84ff;
   }
 
   a, a:visited {
@@ -159,7 +160,7 @@
   }
 
   a:hover {
-    color: rgba(21, 85, 136, .5);
+    color: #45a1ff;
   }
 
   p {
@@ -277,7 +278,7 @@ L A Y O U T
    line-height: 1;
    float: left;
    color: #0c0c0d;
-   margin: .5rem 2rem .5rem .5rem;
+   margin: .5rem .0 .5rem .5rem;
  }
 
  h1 a, h1 a:visited {
