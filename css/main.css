@@ -109,7 +109,7 @@
    Author's custom styles
    ========================================================================== */
   /*SITE COLORS:
-  Header, Link & Button Blue: #1F6798;
+  Header, Link & Button Blue: #0a84ff;
   Hover: rgba(21, 85, 136, .5);
 
   /*SITE FONTS:
@@ -330,7 +330,7 @@ h6 a, h6 a:visited, h6 a:hover {
   font-weight: 600;
   font-style: italic;
   font-size: .9rem;
-  color: #1F6798;
+  color: #0a84ff;
   font-weight: bold;
 }
 
@@ -378,7 +378,7 @@ h6 a, h6 a:visited, h6 a:hover {
   text-align: center;
   vertical-align: middle;
   margin: 2rem 0 2rem 0;
-  color: #1F6798
+  color: #0a84ff
 }
 
 /* ----------------------------------------------------
