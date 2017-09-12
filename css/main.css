@@ -19,12 +19,12 @@
  */
 
  ::-moz-selection {
-  background: #f9f9fa;
+  background: #b3d4fc;
   text-shadow: none;
 }
 
 ::selection {
-  background: #f9f9fa;
+  background: #b3d4fc;
   text-shadow: none;
 }
 
@@ -141,7 +141,7 @@
   body {
     font-family: "SanFranciscoReg", sans-serif;
     color: #0c0c0d;
-    background-color: #fff;
+    background-color: #f9f9fa;
     line-height: 1.5;
     margin: 0;
     padding: 0;
