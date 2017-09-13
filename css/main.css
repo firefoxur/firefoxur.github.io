@@ -187,6 +187,10 @@ L A Y O U T
   max-width: 1400px;
 }
 
+#navigation {
+  width: 90%;
+}
+
 #wrapper {
   margin-top: 1rem;
   padding: 0 3rem;
@@ -220,7 +224,6 @@ L A Y O U T
 
    header {
     background-color: #0a84ff;
-    width: 90%;
   }
 
   nav {
