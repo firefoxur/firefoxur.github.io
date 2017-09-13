@@ -654,6 +654,8 @@ h6 a, h6 a:visited, h6 a:hover {
       height: 0;
       overflow: hidden;
       -webkit-transition: height 350ms ease-in-out;
+      -moz-transition: height 350ms ease-in-out;
+      -o-transition: height 350ms ease-in-out;
       transition: height 350ms ease-in-out;
     }
 
