@@ -220,6 +220,8 @@ L A Y O U T
 
    header {
     background-color: #0a84ff;
+    width: 100%;
+    margin: 1rem;
   }
 
   nav {
