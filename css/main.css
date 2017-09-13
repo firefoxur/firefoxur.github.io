@@ -152,6 +152,7 @@
 
   a {
     -webkit-transition: all 100ms;
+    -moz-transition: all 100ms;
     text-decoration: none;
     color: #0a84ff;
   }
