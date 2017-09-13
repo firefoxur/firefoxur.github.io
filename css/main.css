@@ -34,9 +34,9 @@
 
  hr {
   display: block;
-  height: 1px;
+  height: 1em;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1em solid #ccc;
   margin: 1em 0;
   padding: 0;
 }
