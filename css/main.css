@@ -267,11 +267,11 @@ L A Y O U T
    H E A D I N G S
    ------------------------------------------------------- */
    h1 {
-    margin: 0;
-    padding-left: 2em;
+    margin: 2em;
+    padding: 0;
   }
 
- ]h2, h3, h4, h5, h6 {
+   h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
   }
