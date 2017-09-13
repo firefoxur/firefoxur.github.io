@@ -274,12 +274,12 @@ L A Y O U T
 
   h1 {
    font-family: "SanFranciscoBold", sans-serif;
-   font-size: 2rem;
+   font-size: 3rem;
    font-weight: 500;
    line-height: 1;
    float: left;
    color: #0c0c0d;
-   margin-top: .4em;
+   margin-top: 1em;
    padding: 4rem;
  }
 
