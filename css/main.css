@@ -141,7 +141,7 @@
   body {
     font-family: "SanFranciscoReg", sans-serif;
     color: #0c0c0d;
-    background-color: #f9f9fa;
+    background-color: #fff;
     line-height: 1.5;
     margin: 0;
     padding: 0;
@@ -225,6 +225,7 @@ L A Y O U T
 
   nav li {
     float: left;
+    padding-right: 2rem;
     text-align: center;
   }
 
