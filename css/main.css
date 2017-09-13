@@ -187,14 +187,6 @@ L A Y O U T
   max-width: 1400px;
 }
 
-#headbanner {
-  width: 100%;
-  /**margin: 0 auto;*/
-  margin: .75rem 0 .75rem 4rem;
-  padding-left: 4rem;
-  max-width: 1400px;
-}
-
 #wrapper {
   margin-top: 1rem;
   padding: 0 3rem;
@@ -228,6 +220,8 @@ L A Y O U T
 
    header {
     background-color: #0a84ff;
+    margin: .75rem 0 .75rem 4rem;
+    padding-left: 4rem;
   }
 
   nav {
