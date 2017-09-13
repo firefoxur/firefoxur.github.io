@@ -220,8 +220,6 @@ L A Y O U T
 
    header {
     background-color: #0a84ff;
-    width: 100%;
-    margin: 1rem;
   }
 
   nav {
@@ -281,7 +279,7 @@ L A Y O U T
    line-height: 1;
    float: left;
    color: #0c0c0d;
-   margin: 1rem 0 1rem 3rem;
+   margin: .75rem 0 .75rem 4rem;
    padding: 0;
  }
 
