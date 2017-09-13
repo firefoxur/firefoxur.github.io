@@ -188,7 +188,7 @@ L A Y O U T
 }
 
 #navigation {
-  width: 90%;
+  padding: .2rem, 0, .2rem, 3em;
 }
 
 #wrapper {
@@ -284,7 +284,6 @@ L A Y O U T
    float: left;
    color: #0c0c0d;
    margin-left: 1.5em;
-   padding: .2rem, 0, .2rem, 3em;
  }
 
  h1 a, h1 a:visited {
