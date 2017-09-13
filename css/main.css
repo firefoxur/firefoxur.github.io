@@ -220,7 +220,6 @@ L A Y O U T
 
    header {
     background-color: #0a84ff;
-    padding-left: 4rem;
   }
 
   nav {
@@ -281,7 +280,7 @@ L A Y O U T
    float: left;
    color: #0c0c0d;
    margin: .75rem 0 .75rem 4rem;
-   padding: 0;
+   padding-left: 4rem;
  }
 
  h1 a, h1 a:visited {
