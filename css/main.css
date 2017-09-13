@@ -169,8 +169,8 @@
   p {
     margin: 0;
     padding: 0;
-    orphans: 3;
-    widows: 3;
+    /** orphans: 3;
+    widows: 3;*/
   }
 
   li {
