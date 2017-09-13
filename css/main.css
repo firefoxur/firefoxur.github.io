@@ -267,12 +267,6 @@ L A Y O U T
    H E A D I N G S
    ------------------------------------------------------- */
 
-
-   h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-    padding: 0;
-  }
-
   h1 {
    font-family: "SanFranciscoBold", sans-serif;
    font-size: 2rem;
@@ -281,6 +275,7 @@ L A Y O U T
    float: left;
    color: #0c0c0d;
    margin: 5rem .0 .5rem .5rem;
+   padding: 0;
  }
 
  h1 a, h1 a:visited {
@@ -297,6 +292,7 @@ h2 {
   font-weight: 600;
   color: #fff;
   margin: 0;
+  padding: 0;
   text-transform: uppercase;
 }
 
@@ -313,6 +309,7 @@ h3 {
   font-weight: 600;
   font-size: 1.2rem;
   margin: .5rem;
+  padding: 0;
 }
 
 h4 {
@@ -320,13 +317,15 @@ h4 {
  font-size: .75rem;
  font-weight: 400;
  color: #737373;
- margin-top: 0;
+ margin: 0;
+ padding: 0;
 }
 
 h5 {
   font-size: 1.1rem;
   font-weight: 500;
   margin: 0;
+  padding: 0;
 }
 
 h6 a, h6 a:visited, h6 a:hover {
@@ -334,6 +333,8 @@ h6 a, h6 a:visited, h6 a:hover {
   font-style: italic;
   font-size: .9rem;
   color: #0a84ff;
+  margin: 0;
+  padding: 0;
 }
 
 /** ----------------------------------------------------
