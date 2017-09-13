@@ -301,6 +301,7 @@ h2 {
   text-transform: uppercase;
   orphans: 3;
   widows: 3;
+  page-break-after: avoid;
 }
 
 h2 a, h2 a:visited {
@@ -319,6 +320,7 @@ h3 {
   padding: 0;
   orphans: 3;
   widows: 3;
+  page-break-after: avoid;
 }
 
 h4 {
@@ -608,10 +610,6 @@ h6 a, h6 a:visited, h6 a:hover {
       max-width: 100% !important;
     }
 
-    h2,
-    h3 {
-      page-break-after: avoid;
-    }
   }
 
 
