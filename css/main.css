@@ -169,6 +169,8 @@
   p {
     margin: 0;
     padding: 0;
+    orphans: 3;
+    widows: 3;
   }
 
   li {
@@ -297,6 +299,8 @@ h2 {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
+  orphans: 3;
+  widows: 3;
 }
 
 h2 a, h2 a:visited {
@@ -313,6 +317,8 @@ h3 {
   font-size: 1.2rem;
   margin: .5rem;
   padding: 0;
+  orphans: 3;
+  widows: 3;
 }
 
 h4 {
@@ -600,13 +606,6 @@ h6 a, h6 a:visited, h6 a:hover {
 
     img {
       max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-      orphans: 3;
-      widows: 3;
     }
 
     h2,
