@@ -619,7 +619,7 @@ h6 a, h6 a:visited, h6 a:hover {
 
    /*T A B L E T*/
 
-  /** @media only screen and (max-width: 900px) {
+   @media only screen and (max-width: 900px) {
 
     html {
       font-size: 16px;
@@ -707,7 +707,7 @@ h6 a, h6 a:visited, h6 a:hover {
 }
 
 /*S M A R T P H O N E*/
-/**@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 660px) {
 
   html {
     font-size: 14px;
@@ -738,7 +738,7 @@ h6 a, h6 a:visited, h6 a:hover {
 }
 
   /*M I N I */
-  /**@media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 500px) {
 
    html {
     font-size: 13px;
@@ -751,7 +751,7 @@ h6 a, h6 a:visited, h6 a:hover {
 }
 
 /*T I N Y*/
-/**@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 460px) {
 
   html {
     font-size: 12px;
@@ -760,7 +760,7 @@ h6 a, h6 a:visited, h6 a:hover {
 }
 
 /*T E E N Y*/
-/**@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 425px) {
 
   html {
     font-size: 11px;
@@ -774,7 +774,7 @@ h6 a, h6 a:visited, h6 a:hover {
 }
 
 /*B I T T Y*/
-/**@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 350px) {
 
   html {
     font-size: 10px;
