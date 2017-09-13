@@ -224,7 +224,7 @@ L A Y O U T
 
   nav {
     float: right;
-    padding-left: 1.5rem;
+    padding: 2rem, 0, 0, 1.5rem;
     text-align: right;
   }
 
@@ -240,7 +240,7 @@ L A Y O U T
 
   nav a {
     display: inline-block;
-    margin: 2rem .75rem 0 .75rem;
+    margin: 1rem .75rem 0 .75rem;
   }
 
   .hamburger {
