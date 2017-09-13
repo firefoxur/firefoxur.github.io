@@ -367,6 +367,8 @@ h6 a, h6 a:visited, h6 a:hover {
 
    .title {
     width: 82.5%;
+    margin: 0 0 1rem 6rem;
+    padding: 3rem;
   }
 
   div .project_item {
