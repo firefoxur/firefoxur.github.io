@@ -34,9 +34,9 @@
 
  hr {
   display: block;
-  height: 1em;
+  height: 1px;
   border: 0;
-  border-top: 1em solid #ccc;
+  border-top: 1px solid #ccc;
   margin: 1em 0;
   padding: 0;
 }
@@ -103,6 +103,7 @@
 
   ul {
     -webkit-padding-start: 5px;
+    -moz-padding-start: 5px;
   }
 
 /* ==========================================================================
