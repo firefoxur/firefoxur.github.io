@@ -169,8 +169,6 @@
   p {
     margin: 0;
     padding: 0;
-    /** orphans: 3;
-    widows: 3;*/
   }
 
   li {
@@ -283,7 +281,7 @@ L A Y O U T
    line-height: 1;
    float: left;
    color: #0c0c0d;
-   margin-left: 1.5em;
+   margin-left: 1.6em;
  }
 
  h1 a, h1 a:visited {
