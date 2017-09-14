@@ -233,6 +233,7 @@ L A Y O U T
   nav li {
     float: left;
     text-align: center;
+    padding-right: 1rem;
   }
 
   nav ul {
