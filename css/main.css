@@ -212,7 +212,7 @@ L A Y O U T
 
 #projects  {
   width: 70%;
-  margin-top: -.5rem;
+  margin-top: 0rem;
   float: left;
 }
 
@@ -316,7 +316,7 @@ h2 a:hover {
 
 h3 {
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin: .5rem;
   padding: 0;
   orphans: 3;
@@ -334,19 +334,23 @@ h4 {
 }
 
 h5 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   margin: 0;
   padding: 0;
 }
 
-h6 a, h6 a:visited, h6 a:hover {
+h6 {
   font-weight: 600;
   font-style: italic;
   font-size: .9rem;
-  color: #0a84ff;
   margin: 0;
   padding: 0;
+
+}
+
+h6 a, h6 a:visited, h6 a:hover {
+  color: #0a84ff;
 }
 
 /** ----------------------------------------------------
@@ -376,7 +380,7 @@ h6 a, h6 a:visited, h6 a:hover {
     width: 82.5%;
     background-color: #f9f9fa;
     padding: .5rem;
-    margin: 1rem;
+    margin: 0 0 1rem 3.2rem;
     border-left: .2rem solid #0a84ff;
   }
 
@@ -392,7 +396,7 @@ h6 a, h6 a:visited, h6 a:hover {
   font-size: 1.2rem;
   text-align: center;
   vertical-align: middle;
-  margin: 1rem 0 1rem 0;
+  margin: 0;
   color: #0a84ff; 
 }
 
