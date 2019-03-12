@@ -215,6 +215,10 @@
     display: none;
   }
 
+/* ----------------------------------------------------
+   R E S E A R C H E R S
+   ------------------------------------------------------- */
+
   #report, #researchers  {
    width: 70%;
    margin-top: 0rem;
@@ -230,6 +234,45 @@
 .bios p {
   margin-left: 0;
 }
+
+.profile-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+  height: 150px;
+  width: 150px;
+}
+
+#sharon {
+  background-image: url('../img/researchers/sharon.jpg');
+}
+
+#jennifer {
+  background-image: url('../img/researchers/jennifer.jpg');
+}
+
+#heather {
+  background-image: url('../img/researchers/heather.jpg');
+}
+
+#alice {
+  background-image: url('../img/researchers/alice.jpg');
+}
+
+#nicole {
+  background-image: url('../img/researchers/nicole.jpg');
+}
+
+#gemma {
+  background-image: url('../img/researchers/gemma.jpg');
+}
+
+#mara {
+  background-image: url('../img/researchers/mara.jpg');
+}
+
+
 
 /* ----------------------------------------------------
    N A V I G A T I O N
@@ -603,7 +646,7 @@ h3 {
 /* ----------------------------------------------------
    O V E R W R I T E
    ------------------------------------------------------- */
-   
+
    /*T A B L E T*/
 
    @media only screen and (max-width: 900px) {
