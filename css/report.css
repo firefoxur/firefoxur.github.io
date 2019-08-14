@@ -259,13 +259,17 @@
 }
 
 
+#elisabeth{
+  background-image: url('../img/researchers/Elisabeth.jpeg');
+}
+
 
 #gemma {
   background-image: url('../img/researchers/gemma.jpg');
 }
 
-#jsparks {
-  background-image: url('../img/researchers/jsparks.jpg');
+#raja {
+  background-image: url('../img/researchers/raja.jpg');
 }
 #mara {
   background-image: url('../img/researchers/mara.jpg');
