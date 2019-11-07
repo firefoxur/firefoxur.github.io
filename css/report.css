@@ -222,7 +222,7 @@
   #report, #researchers  {
    width: 70%;
    margin-top: 0rem;
-   float: left;
+   float: center;
  }
 
  .bios {
