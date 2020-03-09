@@ -256,7 +256,13 @@
   background-image: url('../img/researchers/maryanna.jpg');
 }
   
+  #kamyar {
+  background-image: url('../img/researchers/kamyar.jpg');
+}
 
+#rosanne {
+  background-image: url('../img/researchers/rosanne.jpg');
+}
 
 #alice {
   background-image: url('../img/researchers/Alice.jpg');
@@ -281,6 +287,9 @@
 }
 
 
+#rob {
+  background-image: url('../img/researchers/rob.jpg');
+}
 
 /* ----------------------------------------------------
    N A V I G A T I O N
