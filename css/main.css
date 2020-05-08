@@ -376,7 +376,7 @@ h6 a, h6 a:visited, h6 a:hover {
     padding: 0;
   }
 
-  div .profile-image {
+  div .project_item {
     width: 82.5%;
     background-color: #f9f9fa;
     padding: .5rem;
