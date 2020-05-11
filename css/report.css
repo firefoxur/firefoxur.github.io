@@ -220,15 +220,16 @@
    ------------------------------------------------------- */
 
   #report, #researchers  {
-   width: 50%;
+   width: 65%;
    margin-top: 0rem;
    float: left;
  }
 
  .bios {
-  width: 25%;
+  width: 20%;
   float: left;
   margin: auto;
+  padding: auto;
 }
 
 .bios p {
