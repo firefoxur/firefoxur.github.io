@@ -220,19 +220,19 @@
    ------------------------------------------------------- */
 
   #report, #researchers  {
-   width: 70%;
+   width: 50%;
    margin-top: 0rem;
    float: left;
  }
 
  .bios {
-  width: 30%;
+  width: 25%;
   float: left;
-  margin: 1rem 1rem 1rem;
+  margin: auto;
 }
 
 .bios p {
-  margin-left: 0;
+  margin-left 0;
 }
 
 .profile-image {
@@ -243,6 +243,7 @@
   height: 150px;
   width: 150px;
 }
+
 
 #sharon {
   background-image: url('../img/researchers/sharon.jpg');
