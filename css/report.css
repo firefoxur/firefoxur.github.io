@@ -219,7 +219,7 @@
    R E S E A R C H E R S
    ------------------------------------------------------- */
 
-  
+   #report, #researchers  {
     font-weight: 600;
     font-style: italic;
     font-size: 1rem;
@@ -227,18 +227,18 @@
     margin-bottom: 0;#report, #researchers  {
    width: 65%;
    margin-top: 0rem;
-   float: none;
+   float: left;
  }
 
  .bios {
   width: 20%;
-  float: none;
+  float: left;
   margin: auto;
   padding: auto;
 }
 
 .bios p {
-  margin-left 1rem;
+  margin-left 0;
 }
 
 .profile-image {
