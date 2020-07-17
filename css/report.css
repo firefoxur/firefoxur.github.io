@@ -219,12 +219,12 @@
    R E S E A R C H E R S
    ------------------------------------------------------- */
 
-   #report, #researchers  {
+  #report, #researchers  {
     font-weight: 600;
     font-style: italic;
     font-size: 1rem;
     margin-top: 1rem;
-    margin-bottom: 0;#report, #researchers  {
+    margin-bottom: 0;
    width: 65%;
    margin-top: 0rem;
    float: left;
@@ -259,9 +259,7 @@
   background-image: url('../img/researchers/jennifer.jpg');
 }
 
-#maryanna {
-  background-image: url('../img/researchers/maryanna.jpg');
-}
+
   
   #kamyar {
   background-image: url('../img/researchers/kamyar.jpg');
@@ -423,7 +421,14 @@ h3 {
     font-weight: 600;
   }
 
-  h6 {
+
+      h6 {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
   }
 
   .sub {
