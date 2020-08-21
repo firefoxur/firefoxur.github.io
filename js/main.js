@@ -78,3 +78,25 @@ var current = document.location.href.substr(i+1);
     $(".nav_highlight a[href^='"+current+"']").each(function(){
         $(this).addClass('active');
     });
+
+// FILTERING THROUGH URL
+// check boxes based on params in url
+// each checkbox to get it's id set to it's value
+$(document).ready(function(){
+	$('input[type=checkbox]').each(function () {this.id = this.value;});
+	(new URL(window.location.href)).searchParams.forEach((x,y) =>
+	    document.getElementById(y).checked = true);
+	filterItems ();
+})
+// update url params from user changing checkboxes
+$('input[type=checkbox]').on('click', function () {
+	var params = (new URL(window.location.href)).searchParams;
+	if(this.checked) params.append(this.id,"");
+	else params.delete(this.id,"");
+	params = params.toString().replace(/=/g,"");
+	window.history.replaceState({}, '', `${location.pathname}?${params}`);
+})
+// remove all on reset
+$('#reset').on('click', function () {
+	window.history.replaceState({}, '', `${location.pathname}?${''}`);
+})
