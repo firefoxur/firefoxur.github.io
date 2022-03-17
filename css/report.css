@@ -266,9 +266,6 @@
   background-image: url('../img/researchers/rosanne.jpg');
 }
 
-#alice {
-  background-image: url('../img/researchers/Alice.jpg');
-}
 
 
 #anu {
@@ -281,6 +278,9 @@
 }
 
 
+#el {
+  background-image: url('../img/researchers/El.jpg');
+}
 
 #ludwig {
   background-image: url('../img/researchers/ludwig.jpg');
