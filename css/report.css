@@ -242,7 +242,7 @@
 }
 
 .profile-image {
-  background-position: center;
+  background-position: auto;
   background-repeat: no-repeat;
   background-size: cover;
   filter: grayscale(100%);
@@ -254,7 +254,6 @@
 #janice {
   background-image: url('../img/researchers/janice.jpg');
 }
-
 
 
   
@@ -285,7 +284,6 @@
 #ludwig {
   background-image: url('../img/researchers/ludwig.jpg');
 }
-
 
 
 #chance {
