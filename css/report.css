@@ -225,8 +225,6 @@
     font-weight: 600;
     font-style: italic;
     font-size: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
    width: 65%;
    margin-top: 1rem;
    float: left;
@@ -234,7 +232,7 @@
 
  .bios {
   width: 20%;
-  float: center;
+  float: auto;
   margin: auto;
   padding: auto;
 }
