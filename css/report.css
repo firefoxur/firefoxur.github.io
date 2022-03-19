@@ -190,7 +190,12 @@
   #main {
     width: 100%;
     float: left;
-    margin: 0 auto;
+    margin-top: 1400px;
+    margin-bottom: 1400px;
+    margin-left:1400px;
+    margin-right:1400px;
+
+
     max-width: 1400px;
   }
 
