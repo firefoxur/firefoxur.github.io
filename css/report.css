@@ -230,15 +230,15 @@
     font-style: italic;
     font-size: 1rem;
     margin-top: 1rem;
-    margin-bottom: 0;
+    margin-bottom: ;
    width: 65%;
-   margin-top: 0rem;
-   float: left;
+   margin-top: 1400rem;
+   float: center;
  }
 
  .bios {
   width: 20%;
-  float: left;
+  float: center;
   margin: auto;
   padding: auto;
 }
