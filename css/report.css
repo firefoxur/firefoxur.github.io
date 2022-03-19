@@ -244,7 +244,8 @@
 }
 
 .bios p {
-  margin-left 0;
+  float: center;
+  margin:auto;
 }
 
 .profile-image {
