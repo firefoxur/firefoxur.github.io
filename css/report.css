@@ -227,12 +227,12 @@
     font-size: 1rem;
    width: 65%;
    margin-top: 1rem;
-   float: bottom;
+   float: clear;
  }
 
  .bios {
   width: 20%;
-  float:left;
+  float: clear;
   margin: auto;
   padding: auto;
 }
