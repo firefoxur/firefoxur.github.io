@@ -230,9 +230,9 @@
     font-style: italic;
     font-size: 1rem;
     margin-top: 1rem;
-    margin-bottom: ;
+    margin-bottom: 1rem;
    width: 65%;
-   margin-top: 1400rem;
+   margin-top: 1rem;
    float: center;
  }
 
@@ -244,8 +244,7 @@
 }
 
 .bios p {
-  float: center;
-  margin:auto;
+  margin-left 0;
 }
 
 .profile-image {
