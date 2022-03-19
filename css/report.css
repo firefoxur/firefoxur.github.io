@@ -233,7 +233,7 @@
  .bios {
   width: 20%;
   float: left;
-  margin: auto;
+  margin-left:20px; 
   padding: auto;
 }
 
