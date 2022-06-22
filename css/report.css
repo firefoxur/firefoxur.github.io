@@ -190,7 +190,7 @@
   #main {
 
   width: 100%;
-  float: left;
+  float: auto;
   margin: 0 auto;
   max-width: 1400px;
 }
@@ -227,7 +227,7 @@
     font-size: 1rem;
    width: 65%;
    margin-top: 1rem;
-   float: clear;
+   float: auto;
  }
 
  .bios {
@@ -291,13 +291,15 @@
 }
 
 
-#mara {
-  background-image: url('../img/researchers/mara.jpg');
+#brooke{
+  background-image: url('../img/researchers/brooke.jpg');
 }
 
 #jon {
   background-image: url('../img/researchers/jon.png');
 }
+
+ 
 
 
 /* ----------------------------------------------------
@@ -315,7 +317,7 @@ header {
   }
 
   nav li {
-    float: left;
+    float: center;
     text-align: center;
     padding-right: 1rem;
   }
