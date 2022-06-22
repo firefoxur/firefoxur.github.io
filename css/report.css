@@ -190,7 +190,7 @@
   #main {
 
   width: 100%;
-  float: auto;
+  float: left;
   margin: 0 auto;
   max-width: 1400px;
 }
@@ -227,7 +227,11 @@
     font-size: 1rem;
    width: 65%;
    margin-top: 1rem;
+<<<<<<< HEAD
    float: left;
+=======
+   float: clear;
+>>>>>>> parent of 6704277 (updated file)
  }
 
  .bios {
@@ -291,15 +295,13 @@
 }
 
 
-#brooke{
-  background-image: url('../img/researchers/brooke.jpg');
+#mara {
+  background-image: url('../img/researchers/mara.jpg');
 }
 
 #jon {
   background-image: url('../img/researchers/jon.png');
 }
-
- 
 
 
 /* ----------------------------------------------------
@@ -317,8 +319,13 @@ header {
   }
 
   nav li {
+<<<<<<< HEAD
     float: left
     text-align: left;
+=======
+    float: left;
+    text-align: center;
+>>>>>>> parent of 6704277 (updated file)
     padding-right: 1rem;
   }
 
