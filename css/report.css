@@ -227,18 +227,18 @@
     font-size: 1rem;
    width: 65%;
    margin-top: 1rem;
-   float: auto;
+   float: left;
  }
 
  .bios {
   width: 20%;
   float: left;
   margin: auto; 
-  padding: auto;
+  padding: 0;
 }
 
 .bios p {
-  margin: auto;
+  margin-left: center;
 }
 
 .profile-image {
@@ -311,14 +311,14 @@ header {
   }
 
   nav {
-    float: right;
+    float: auto;
     padding: 4rem, 1.5rem, 0, 1.5rem;
     text-align: right;
   }
 
   nav li {
-    float: center;
-    text-align: center;
+    float: left
+    text-align: left;
     padding-right: 1rem;
   }
 
@@ -329,7 +329,7 @@ header {
 
   nav a {
     display: inline-block;
-    margin: 1rem .75rem 0 .75rem;
+    margin: .75rem .75rem 0 .75rem;
   }
 
   .hamburger {
