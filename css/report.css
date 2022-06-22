@@ -319,13 +319,10 @@ header {
   }
 
   nav li {
-<<<<<<< HEAD
-    float: left
-    text-align: left;
-=======
+
+   
     float: left;
     text-align: center;
->>>>>>> parent of 6704277 (updated file)
     padding-right: 1rem;
   }
 
