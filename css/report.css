@@ -234,7 +234,7 @@
 
  .bios {
   width: 20%;
-  float: left;
+  float:center;
   margin: auto; 
   padding: 0;
 }
@@ -368,7 +368,7 @@ nav {
    font-size: 2rem;
    font-weight: 500;
    line-height: 1;
-   float: left;
+   float: right;
    color: #0c0c0d;
    margin-left: 1.6em;
  }
@@ -455,6 +455,7 @@ h3 {
     padding: 0;
   }
 
+   
   .hero img {
     width: 100%;
   }
