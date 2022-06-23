@@ -311,16 +311,12 @@
 header {
     background-color: #0a84ff;
   }
-
-  nav {
-    float: auto;
+nav {
+    float: right;
     padding: 4rem, 1.5rem, 0, 1.5rem;
     text-align: right;
   }
-
   nav li {
-
-   
     float: left;
     text-align: center;
     padding-right: 1rem;
@@ -370,7 +366,7 @@ header {
    font-size: 2rem;
    font-weight: 500;
    line-height: 1;
-   float: left;
+   float: right;
    color: #0c0c0d;
    margin-left: 1.6em;
  }
