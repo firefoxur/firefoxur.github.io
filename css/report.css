@@ -227,11 +227,7 @@
     font-size: 1rem;
    width: 65%;
    margin-top: 1rem;
-
-   -<<<<<<< HEAD
    float: left;
-=======
-   float: clear;
 
  }
 
@@ -246,9 +242,6 @@
   margin-left: center;
 }
 
-.bios{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
 
 .profile-image {
   background-position: left;
