@@ -227,11 +227,9 @@
     font-size: 1rem;
    width: 65%;
    margin-top: 1rem;
-<<<<<<< HEAD
-   float: left;
-=======
-   float: clear;
->>>>>>> parent of 6704277 (updated file)\
+
+   float: auto;
+  
  }
 
  .bios {
