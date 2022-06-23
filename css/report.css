@@ -228,8 +228,11 @@
    width: 65%;
    margin-top: 1rem;
 
-   float: auto;
-  
+   -<<<<<<< HEAD
+   float: left;
+=======
+   float: clear;
+
  }
 
  .bios {
