@@ -314,7 +314,7 @@ header {
     background-color: #0a84ff;
   }
 nav {
-    float: right;
+    float: left;
     padding: 4rem, 1.5rem, 0, 1.5rem;
     text-align: right;
   }
