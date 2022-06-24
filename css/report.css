@@ -231,9 +231,9 @@
  }
 
  .bios {
-  width: 15%;
+  width: 50%;
     float: left;
-  margin: auto; 
+  margin: 1rem1rem; 
   padding: auto;
 
 }
