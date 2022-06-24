@@ -232,9 +232,9 @@
 
  .bios {
   width: 20%;
-  float: left;
-  margin: auto; 
-  padding: auto;
+  float: clear;
+  margin: 1rem 1rem 1rem 3rem;
+
 }
 
 .bios p {
