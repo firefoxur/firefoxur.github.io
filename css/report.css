@@ -230,10 +230,11 @@
    float: clear;
  }
 
+
  .bios {
-  width: 50%;
+  width: 20%;
     float: left;
-  margin: 1rem 1rem; 
+  margin: auto; 
   padding: auto;
 
 }
