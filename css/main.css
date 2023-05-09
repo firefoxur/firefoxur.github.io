@@ -138,6 +138,15 @@
     font-size: 18px;
   }
 
+
+button { 
+       position: top; 
+       top: 0; 
+       left: 0; 
+      highlight: #DDEEEE; 
+       width: 100%; 
+     }
+     
   body {
     font-family: "SanFranciscoReg", sans-serif;
     color: #0c0c0d;
